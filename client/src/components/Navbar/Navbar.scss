@@ -1,0 +1,54 @@
+@import '../../utils//variables.scss';
+
+header{
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: $main-padding;
+    height: 80px;
+    .nav-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .nav-wrapper__categories{
+            display: flex;
+            gap:10px;
+        }
+        .nav-wrapper__logo{
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+        .nav-wrapper__pages{
+            display: flex;
+            border: 1px solid red;
+            gap:10px;
+            align-items: center;
+            .icons{
+                display: flex;
+                gap: 10px;
+                border: 1px solid red;
+                align-items: center;
+                color: #777;
+                cursor: pointer;
+                .cart-icon{
+                    position: relative;
+                    .cart-icon-counter{
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 50%;
+                        // background-color:#2879fe; 
+                        background-color:$secondary-color;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,41 @@
+@import '../../utils//variables.scss';
+
+.footer{
+    border: 1px solid red;
+    padding: $main-padding;
+    h5{
+        font-size: 20px;
+    }
+    .footer__top{
+        border: 1px solid red;
+        display: flex;
+        .links{
+            display: flex;
+            flex: 1;
+            .links__categories{
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+            }
+            .links__pages{
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+            }
+        }
+        .info{
+            display: flex;
+            flex: 1;
+        }
+    }
+    .footer__bottom{
+        border: 1px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: $breakpoint-tablet) {
+  
+}
