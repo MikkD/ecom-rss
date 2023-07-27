@@ -26,18 +26,14 @@ function Footer() {
                         <h5>About</h5>
                         <div>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Ipsam fuga laborum numquam. Sequi et unde amet libero nam
-                            voluptatum ex est, magni nihil delectus odio corporis deserunt
-                            ullam ut accusamus.
+                            Ipsam fuga laborum numquam.
                         </div>
                     </div>
                     <div className='contact'>
                         <h5>Contact</h5>
                         <div>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Voluptas minus corrupti accusamus sunt. Quam ullam,
-                            aspernatur, necessitatibus rem molestias, dolores earum magni
-                            mollitia deleniti debitis sunt porro architecto minima. Illo.
+                            Voluptas minus corrupti.
                         </div>
                     </div>
                 </div>
@@ -47,7 +43,7 @@ function Footer() {
                 <div className='payments'>
                     <img
                         src='/assets/pay-cards-footer.jpg'
-                        width='200px'
+                        width='150px'
                         alt='payments'
                     />
                 </div>

@@ -15,7 +15,9 @@ function Navbar() {
                     <Link to='/men'>Men</Link>
                     <Link to='/accessories'>Accessories</Link>
                 </div>
-                <div className='nav-wrapper__logo'>Kickbox</div>
+                <div className='nav-wrapper__logo'>
+                    <Link to='/'>Kickbox</Link>
+                </div>
                 <div className='nav-wrapper__pages'>
                     <Link to='/about'>About</Link>
                     <Link to='/contact'>Contact</Link>
