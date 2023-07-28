@@ -3,53 +3,53 @@
         "id":1,
         "price":25,
         "name":"featured1",
-        "imgUrl":"/assets/featured/featured1.jpg"
+        "imgUrl":"/assets/featured/feat1.jpg"
     },
     {
         "id":2,
         "price":14,
         "name":"featured2",
-        "imgUrl":"/assets/featured/featured2.jpg",
+        "imgUrl":"/assets/featured/feat2.jpg",
         "isNew":"true"
     },
     {
         "id":3,
         "price":22,
         "name":"featured3",
-        "imgUrl":"/assets/featured/featured3.jpg"
+        "imgUrl":"/assets/featured/feat3.jpg"
     },
     {
         "id":4,
         "price":30,
         "name":"featured4",
-        "imgUrl":"/assets/featured/featured4.jpg",
+        "imgUrl":"/assets/featured/feat4.jpg",
         "isNew":"true"
     },
     {
         "id":5,
         "price":13,
         "name":"featured5",
-        "imgUrl":"/assets/featured/featured5.jpg"
+        "imgUrl":"/assets/featured/feat5.jpg"
     },
     {
         "id":6,
         "price":20,
         "name":"featured6",
-        "imgUrl":"/assets/featured/featured6.jpg",
+        "imgUrl":"/assets/featured/feat6.jpg",
         "isNew":"true"
     },
     {
         "id":7,
         "price":12,
         "name":"featured7",
-        "imgUrl":"/assets/featured/featured7.jpg",
+        "imgUrl":"/assets/featured/feat7.jpg",
         "isNew":"true"
     },
     {
         "id":8,
         "price":10,
         "name":"featured8",
-        "imgUrl":"/assets/featured/featured8.jpg"
+        "imgUrl":"/assets/featured/feat8.jpg"
     }
 ]
     
