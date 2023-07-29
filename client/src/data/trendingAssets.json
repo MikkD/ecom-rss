@@ -1,0 +1,28 @@
+[
+    {
+        "id":1,
+        "price":45,
+        "name":"trending 1 ",
+        "imgUrl":"/assets/trending/trending1.jpg"
+    },
+    {
+        "id":2,
+        "price":25,
+        "name":"trending 2",
+        "imgUrl":"/assets/trending/trending2.jpg"
+    },
+    {
+        "id":3,
+        "price":30,
+        "name":"trending 3",
+        "imgUrl":"/assets/trending/trending3.jpg"
+    },
+    {
+        "id":4,
+        "price":10,
+        "name":"trending 4",
+        "imgUrl":"/assets/trending/trending4.jpg"
+    }
+]
+    
+    

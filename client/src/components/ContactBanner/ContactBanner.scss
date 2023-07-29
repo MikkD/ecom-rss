@@ -1,0 +1,47 @@
+@import '../../utils//variables.scss';
+
+.contact-banner{
+    background-color: $primary-color;
+    padding: $main-padding;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-weight: 900;
+    .contact-banner-input{
+        padding: 5px;
+        border-radius: 1px;
+        border: transparent;
+        outline: none;
+    }
+    .contact-banner-submit-btn{
+        padding: 5px;
+        border-radius: 1px;
+        border: none;
+        background-color: black;
+        color: white;
+        font-weight: 900;
+        transition: all .1s ease-in;
+        &:hover{
+            background-color: white;
+            cursor: pointer;
+            color: black;
+        }
+    }
+
+    .contact-banner-icons{
+        display: flex;
+        gap:10px;
+        
+    }
+    .contact-banner-icon{
+        opacity: .95;
+        transform: scale(.95);
+        &:hover{
+            cursor: pointer;
+            cursor: pointer;
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+}

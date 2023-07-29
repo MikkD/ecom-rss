@@ -1,25 +1,25 @@
 @import '../../utils//variables.scss';
 
-.featured-products-description{
+.products-description{
     display: flex;
     border: 1px solid red;
     padding: $main-padding;
     align-items: center;
     justify-content: space-between;
-    .featured-products-title{
+    .products-title{
         font-size: 20px;
         font-weight: 900;
         text-transform: uppercase;
     }
-    .featured-products-info{
+    .products-info{
         flex-basis: 50%;
     }
 }
-.featured-products-cards{
+.products-cards{
     box-sizing: border-box;
     display: flex;
     border: 1px solid red;
-    gap: 45px;
+    gap: 15px;
     flex-wrap: wrap;
     padding: 50px 100px;
     justify-content: center;
