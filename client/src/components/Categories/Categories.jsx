@@ -9,14 +9,14 @@ function Categories() {
         <div className='categories'>
             <h4 className='category-title'>Categories</h4>
             <div className='categories-grid'>
-                {categoryAssets.map((category) => {
+                {categoryAssets.map(({ name, imgUrl, id }) => {
                     return (
                         <Link
-                            className={`grid-item ${category.name}`}
-                            key={category.id}
-                            to={`category/${category.name}`}>
-                            <img src={category.imgUrl} alt={category.name} />
-                            <div className='category-name'>{category.name}</div>
+                            className={`grid-item ${name}`}
+                            key={id}
+                            to={`category/${name}`}>
+                            <img src={imgUrl} alt={name} />
+                            <div className='category-name'>{name}</div>
                         </Link>
                     );
                 })}

@@ -11,9 +11,12 @@ function Navbar() {
         <header>
             <nav className='nav-wrapper'>
                 <div className='nav-wrapper__categories'>
-                    <Link to='/women'>Women</Link>
-                    <Link to='/men'>Men</Link>
-                    <Link to='/accessories'>Accessories</Link>
+                    <Link to='/category/women'>Women</Link>
+                    <Link to='/category/men'>Men</Link>
+                    <Link to='/category/accessories'>Accessories</Link>
+                    <Link to='/category/trendy'>Trendy</Link>
+                    <Link to='/category/new'>New</Link>
+                    <Link to='/category/sale'>Sale</Link>
                 </div>
                 <div className='nav-wrapper__logo'>
                     <Link to='/'>Kickbox</Link>

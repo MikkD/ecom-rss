@@ -1,0 +1,483 @@
+[
+    {
+      "id": 1,
+      "price": 11,
+      "name": "men1",
+      "imgUrl": "/assets/categories/men/men1.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 2,
+      "price": 50,
+      "name": "men2",
+      "imgUrl": "/assets/categories/men/men2.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 3,
+      "price": 35,
+      "name": "men3",
+      "imgUrl": "/assets/categories/men/men3.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 4,
+      "price": 2,
+      "name": "men4",
+      "imgUrl": "/assets/categories/men/men4.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 5,
+      "price": 28,
+      "name": "men5",
+      "imgUrl": "/assets/categories/men/men5.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 6,
+      "price": 47,
+      "name": "men6",
+      "imgUrl": "/assets/categories/men/men6.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 7,
+      "price": 6,
+      "name": "men7",
+      "imgUrl": "/assets/categories/men/men7.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 8,
+      "price": 34,
+      "name": "men8",
+      "imgUrl": "/assets/categories/men/men8.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 9,
+      "price": 48,
+      "name": "men9",
+      "imgUrl": "/assets/categories/men/men9.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 10,
+      "price": 11,
+      "name": "men10",
+      "imgUrl": "/assets/categories/men/men10.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 11,
+      "price": 41,
+      "name": "men11",
+      "imgUrl": "/assets/categories/men/men11.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 12,
+      "price": 36,
+      "name": "men12",
+      "imgUrl": "/assets/categories/men/men12.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 13,
+      "price": 6,
+      "name": "men13",
+      "imgUrl": "/assets/categories/men/men13.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 14,
+      "price": 28,
+      "name": "men14",
+      "imgUrl": "/assets/categories/men/men14.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 15,
+      "price": 32,
+      "name": "men15",
+      "imgUrl": "/assets/categories/men/men15.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 16,
+      "price": 21,
+      "name": "men16",
+      "imgUrl": "/assets/categories/men/men16.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 17,
+      "price": 38,
+      "name": "men17",
+      "imgUrl": "/assets/categories/men/men17.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 18,
+      "price": 11,
+      "name": "men18",
+      "imgUrl": "/assets/categories/men/men18.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 19,
+      "price": 19,
+      "name": "men19",
+      "imgUrl": "/assets/categories/men/men19.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 20,
+      "price": 30,
+      "name": "men20",
+      "imgUrl": "/assets/categories/men/men20.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 21,
+      "price": 46,
+      "name": "men21",
+      "imgUrl": "/assets/categories/men/men21.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 22,
+      "price": 33,
+      "name": "men22",
+      "imgUrl": "/assets/categories/men/men22.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 23,
+      "price": 24,
+      "name": "men23",
+      "imgUrl": "/assets/categories/men/men23.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 24,
+      "price": 32,
+      "name": "men24",
+      "imgUrl": "/assets/categories/men/men24.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 25,
+      "price": 35,
+      "name": "men25",
+      "imgUrl": "/assets/categories/men/men25.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 26,
+      "price": 25,
+      "name": "men26",
+      "imgUrl": "/assets/categories/men/men26.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 27,
+      "price": 28,
+      "name": "men27",
+      "imgUrl": "/assets/categories/men/men27.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 28,
+      "price": 48,
+      "name": "men28",
+      "imgUrl": "/assets/categories/men/men28.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 29,
+      "price": 23,
+      "name": "men29",
+      "imgUrl": "/assets/categories/men/men29.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 30,
+      "price": 17,
+      "name": "men30",
+      "imgUrl": "/assets/categories/men/men30.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 31,
+      "price": 18,
+      "name": "men31",
+      "imgUrl": "/assets/categories/men/men31.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 32,
+      "price": 9,
+      "name": "men32",
+      "imgUrl": "/assets/categories/men/men32.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 33,
+      "price": 36,
+      "name": "men33",
+      "imgUrl": "/assets/categories/men/men33.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 34,
+      "price": 17,
+      "name": "men34",
+      "imgUrl": "/assets/categories/men/men34.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 35,
+      "price": 30,
+      "name": "men35",
+      "imgUrl": "/assets/categories/men/men35.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 36,
+      "price": 11,
+      "name": "men36",
+      "imgUrl": "/assets/categories/men/men36.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 37,
+      "price": 30,
+      "name": "men37",
+      "imgUrl": "/assets/categories/men/men37.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 38,
+      "price": 9,
+      "name": "men38",
+      "imgUrl": "/assets/categories/men/men38.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 39,
+      "price": 9,
+      "name": "men39",
+      "imgUrl": "/assets/categories/men/men39.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 40,
+      "price": 40,
+      "name": "men40",
+      "imgUrl": "/assets/categories/men/men40.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 41,
+      "price": 13,
+      "name": "men41",
+      "imgUrl": "/assets/categories/men/men41.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 42,
+      "price": 18,
+      "name": "men42",
+      "imgUrl": "/assets/categories/men/men42.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 43,
+      "price": 6,
+      "name": "men43",
+      "imgUrl": "/assets/categories/men/men43.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 44,
+      "price": 41,
+      "name": "men44",
+      "imgUrl": "/assets/categories/men/men44.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 45,
+      "price": 8,
+      "name": "men45",
+      "imgUrl": "/assets/categories/men/men45.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 46,
+      "price": 45,
+      "name": "men46",
+      "imgUrl": "/assets/categories/men/men46.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 47,
+      "price": 41,
+      "name": "men47",
+      "imgUrl": "/assets/categories/men/men47.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 48,
+      "price": 41,
+      "name": "men48",
+      "imgUrl": "/assets/categories/men/men48.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 49,
+      "price": 42,
+      "name": "men49",
+      "imgUrl": "/assets/categories/men/men49.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 50,
+      "price": 31,
+      "name": "men50",
+      "imgUrl": "/assets/categories/men/men50.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 51,
+      "price": 3,
+      "name": "men51",
+      "imgUrl": "/assets/categories/men/men51.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 52,
+      "price": 23,
+      "name": "men52",
+      "imgUrl": "/assets/categories/men/men52.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 53,
+      "price": 36,
+      "name": "men53",
+      "imgUrl": "/assets/categories/men/men53.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 54,
+      "price": 27,
+      "name": "men54",
+      "imgUrl": "/assets/categories/men/men54.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 55,
+      "price": 29,
+      "name": "men55",
+      "imgUrl": "/assets/categories/men/men55.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 56,
+      "price": 2,
+      "name": "men56",
+      "imgUrl": "/assets/categories/men/men56.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 57,
+      "price": 4,
+      "name": "men57",
+      "imgUrl": "/assets/categories/men/men57.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 58,
+      "price": 2,
+      "name": "men58",
+      "imgUrl": "/assets/categories/men/men58.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 59,
+      "price": 9,
+      "name": "men59",
+      "imgUrl": "/assets/categories/men/men59.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 60,
+      "price": 8,
+      "name": "men60",
+      "imgUrl": "/assets/categories/men/men60.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 61,
+      "price": 16,
+      "name": "men61",
+      "imgUrl": "/assets/categories/men/men61.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 62,
+      "price": 42,
+      "name": "men62",
+      "imgUrl": "/assets/categories/men/men62.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    },
+    {
+      "id": 63,
+      "price": 12,
+      "name": "men63",
+      "imgUrl": "/assets/categories/men/men63.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 64,
+      "price": 18,
+      "name": "men64",
+      "imgUrl": "/assets/categories/men/men64.jpg",
+      "isNew": "true",
+      "type": "shirt"
+    }
+  ] 
+  

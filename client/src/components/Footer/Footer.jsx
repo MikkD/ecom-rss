@@ -9,9 +9,12 @@ function Footer() {
                 <div className='links'>
                     <div className='links__categories'>
                         <h5>Categories</h5>
-                        <Link to='/men'>Men</Link>
-                        <Link to='/women'>Women</Link>
-                        <Link to='/accessories'>Accessories</Link>
+                        <Link to='/category/women'>Women</Link>
+                        <Link to='/category/men'>Men</Link>
+                        <Link to='/category/accessories'>Accessories</Link>
+                        <Link to='/category/trendy'>Trendy</Link>
+                        <Link to='/category/new'>New</Link>
+                        <Link to='/category/sale'>Sale</Link>
                     </div>
                     <div className='links__pages'>
                         <h5>Links</h5>
