@@ -5,6 +5,7 @@ header{
     box-sizing: border-box;
     padding: $main-padding;
     height: 60px;
+    font-size: 20px;
     .nav-wrapper{
         display: flex;
         justify-content: space-between;
@@ -28,9 +29,19 @@ header{
                 border: 1px solid red;
                 align-items: center;
                 color: #777;
-                cursor: pointer;
+                svg{
+                    cursor: pointer;
+                    &:hover{
+                        fill:$secondary-color;
+                    }
+                }
+                
                 .cart-icon{
                     position: relative;
+                    cursor: pointer;
+                    &:hover{
+                        fill:$secondary-color;
+                    }
                     .cart-icon-counter{
                         position: absolute;
                         bottom: 0;
@@ -38,7 +49,6 @@ header{
                         width: 15px;
                         height: 15px;
                         border-radius: 50%;
-                        // background-color:#2879fe; 
                         background-color:$secondary-color;
                         color: white;
                         display: flex;

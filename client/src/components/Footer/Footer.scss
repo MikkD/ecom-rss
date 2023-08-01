@@ -3,9 +3,9 @@
 .footer{
     border: 1px solid red;
     padding: $main-padding;
-    
+    font-size: 18px;
     h5{
-        font-size: 16px;
+        margin-bottom: 15px;
     }
     .footer__top{
         border: 1px solid red;
@@ -18,17 +18,26 @@
                 display: flex;
                 flex-direction: column;
                 flex: 1;
+                a{
+                    margin-bottom:5px;
+                }
             }
             .links__pages{
                 display: flex;
                 flex-direction: column;
                 flex: 1;
+                a{
+                    margin-bottom:5px;
+                }
             }
         }
         .info{
             display: flex;
             flex: 1;
             gap: 10px;
+        }
+        .contact{
+            
         }
     }
     .footer__bottom{
