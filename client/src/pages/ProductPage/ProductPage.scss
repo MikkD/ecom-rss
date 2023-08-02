@@ -35,6 +35,12 @@
                 padding: 15px;
                 border: 2px solid gray;
                 transition: all 0.1s ease-in;
+                &:disabled{
+                    &:hover{
+                        background: transparent;
+                        color:rgb(128, 128, 128);
+                    }
+                }
                 &:hover{
                     cursor: pointer;
                     background: #3a82f5;

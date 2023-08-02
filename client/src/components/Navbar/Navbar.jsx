@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import SearchIcon from '@mui/icons-material/Search';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import ShoppingCart from '../ShoppingCart/ShoppingCart';
 import './Navbar.scss';
 
 function Navbar() {
+    const [isShoppingCartOpen, setIsShoppingCartActive] = useState(false);
     return (
         <header>
             <nav className='nav-wrapper'>
@@ -29,12 +31,18 @@ function Navbar() {
                         <SearchIcon />
                         <PersonOutlineIcon />
                         <FavoriteBorderIcon />
-                        <div className='cart-icon'>
+                        <div
+                            className='cart-icon'
+                            onClick={() => setIsShoppingCartActive(true)}>
                             <ShoppingCartIcon />
                             <div className='cart-icon-counter'>1</div>
                         </div>
                     </div>
                 </div>
+                <ShoppingCart
+                    isShoppingCartOpen={isShoppingCartOpen}
+                    setIsShoppingCartActive={setIsShoppingCartActive}
+                />
             </nav>
         </header>
     );
