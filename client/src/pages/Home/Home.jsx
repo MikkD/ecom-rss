@@ -5,8 +5,8 @@ import Products from '../../shared/Products/Products';
 import Categories from '../../components/Categories/Categories';
 import ContactBanner from '../../components/ContactBanner/ContactBanner';
 
-import featuredAssets from '../../data/featuredAssets.json';
-import trendingAssets from '../../data/trendingAssets.json';
+import newCategoryAssets from '../../data/newCategoryAssets.json';
+import trendyCategoryAssets from '../../data/trendyCategoryAssets.json';
 
 const featuredProductsDescription = `New Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,suscipit numquam at non dolore obcaecati fuga, tempore nesciunt, odit
 quidem ad repellendus voluptatem veritatis quaerat neque nam magni
@@ -21,13 +21,13 @@ function Home() {
             <Slider />
             <Products
                 title='New'
-                assets={featuredAssets}
+                assets={newCategoryAssets.slice(0, 8)}
                 description={featuredProductsDescription}
             />
             <Categories />
             <Products
                 title='Trending'
-                assets={trendingAssets}
+                assets={trendyCategoryAssets.slice(0, 6)}
                 description={trendingProductsDescription}
             />
             <ContactBanner />
