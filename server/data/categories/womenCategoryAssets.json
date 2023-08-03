@@ -1,0 +1,482 @@
+[
+    {
+      "id": 1,
+      "price": 43,
+      "name": "women1",
+      "imgUrl": "/assets/categories/women/women1.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 2,
+      "price": 4,
+      "name": "women2",
+      "imgUrl": "/assets/categories/women/women2.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 3,
+      "price": 44,
+      "name": "women3",
+      "imgUrl": "/assets/categories/women/women3.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 4,
+      "price": 16,
+      "name": "women4",
+      "imgUrl": "/assets/categories/women/women4.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 5,
+      "price": 45,
+      "name": "women5",
+      "imgUrl": "/assets/categories/women/women5.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 6,
+      "price": 6,
+      "name": "women6",
+      "imgUrl": "/assets/categories/women/women6.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 7,
+      "price": 41,
+      "name": "women7",
+      "imgUrl": "/assets/categories/women/women7.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 8,
+      "price": 11,
+      "name": "women8",
+      "imgUrl": "/assets/categories/women/women8.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 9,
+      "price": 8,
+      "name": "women9",
+      "imgUrl": "/assets/categories/women/women9.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 10,
+      "price": 28,
+      "name": "women10",
+      "imgUrl": "/assets/categories/women/women10.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 11,
+      "price": 13,
+      "name": "women11",
+      "imgUrl": "/assets/categories/women/women11.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 12,
+      "price": 18,
+      "name": "women12",
+      "imgUrl": "/assets/categories/women/women12.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 13,
+      "price": 21,
+      "name": "women13",
+      "imgUrl": "/assets/categories/women/women13.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 14,
+      "price": 38,
+      "name": "women14",
+      "imgUrl": "/assets/categories/women/women14.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 15,
+      "price": 35,
+      "name": "women15",
+      "imgUrl": "/assets/categories/women/women15.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 16,
+      "price": 11,
+      "name": "women16",
+      "imgUrl": "/assets/categories/women/women16.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 17,
+      "price": 43,
+      "name": "women17",
+      "imgUrl": "/assets/categories/women/women17.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 18,
+      "price": 1,
+      "name": "women18",
+      "imgUrl": "/assets/categories/women/women18.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 19,
+      "price": 39,
+      "name": "women19",
+      "imgUrl": "/assets/categories/women/women19.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 20,
+      "price": 49,
+      "name": "women20",
+      "imgUrl": "/assets/categories/women/women20.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 21,
+      "price": 23,
+      "name": "women21",
+      "imgUrl": "/assets/categories/women/women21.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 22,
+      "price": 48,
+      "name": "women22",
+      "imgUrl": "/assets/categories/women/women22.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 23,
+      "price": 44,
+      "name": "women23",
+      "imgUrl": "/assets/categories/women/women23.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 24,
+      "price": 40,
+      "name": "women24",
+      "imgUrl": "/assets/categories/women/women24.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 25,
+      "price": 50,
+      "name": "women25",
+      "imgUrl": "/assets/categories/women/women25.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 26,
+      "price": 25,
+      "name": "women26",
+      "imgUrl": "/assets/categories/women/women26.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 27,
+      "price": 14,
+      "name": "women27",
+      "imgUrl": "/assets/categories/women/women27.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 28,
+      "price": 7,
+      "name": "women28",
+      "imgUrl": "/assets/categories/women/women28.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 29,
+      "price": 5,
+      "name": "women29",
+      "imgUrl": "/assets/categories/women/women29.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 30,
+      "price": 49,
+      "name": "women30",
+      "imgUrl": "/assets/categories/women/women30.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 31,
+      "price": 28,
+      "name": "women31",
+      "imgUrl": "/assets/categories/women/women31.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 32,
+      "price": 36,
+      "name": "women32",
+      "imgUrl": "/assets/categories/women/women32.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 33,
+      "price": 50,
+      "name": "women33",
+      "imgUrl": "/assets/categories/women/women33.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 34,
+      "price": 12,
+      "name": "women34",
+      "imgUrl": "/assets/categories/women/women34.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 35,
+      "price": 13,
+      "name": "women35",
+      "imgUrl": "/assets/categories/women/women35.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 36,
+      "price": 31,
+      "name": "women36",
+      "imgUrl": "/assets/categories/women/women36.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 37,
+      "price": 48,
+      "name": "women37",
+      "imgUrl": "/assets/categories/women/women37.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 38,
+      "price": 39,
+      "name": "women38",
+      "imgUrl": "/assets/categories/women/women38.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 39,
+      "price": 35,
+      "name": "women39",
+      "imgUrl": "/assets/categories/women/women39.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 40,
+      "price": 32,
+      "name": "women40",
+      "imgUrl": "/assets/categories/women/women40.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 41,
+      "price": 49,
+      "name": "women41",
+      "imgUrl": "/assets/categories/women/women41.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 42,
+      "price": 31,
+      "name": "women42",
+      "imgUrl": "/assets/categories/women/women42.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 43,
+      "price": 28,
+      "name": "women43",
+      "imgUrl": "/assets/categories/women/women43.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 44,
+      "price": 6,
+      "name": "women44",
+      "imgUrl": "/assets/categories/women/women44.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 45,
+      "price": 45,
+      "name": "women45",
+      "imgUrl": "/assets/categories/women/women45.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 46,
+      "price": 41,
+      "name": "women46",
+      "imgUrl": "/assets/categories/women/women46.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 47,
+      "price": 31,
+      "name": "women47",
+      "imgUrl": "/assets/categories/women/women47.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 48,
+      "price": 28,
+      "name": "women48",
+      "imgUrl": "/assets/categories/women/women48.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 49,
+      "price": 23,
+      "name": "women49",
+      "imgUrl": "/assets/categories/women/women49.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 50,
+      "price": 12,
+      "name": "women50",
+      "imgUrl": "/assets/categories/women/women50.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 51,
+      "price": 21,
+      "name": "women51",
+      "imgUrl": "/assets/categories/women/women51.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 52,
+      "price": 46,
+      "name": "women52",
+      "imgUrl": "/assets/categories/women/women52.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 53,
+      "price": 33,
+      "name": "women53",
+      "imgUrl": "/assets/categories/women/women53.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 54,
+      "price": 33,
+      "name": "women54",
+      "imgUrl": "/assets/categories/women/women54.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 55,
+      "price": 26,
+      "name": "women55",
+      "imgUrl": "/assets/categories/women/women55.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 56,
+      "price": 7,
+      "name": "women56",
+      "imgUrl": "/assets/categories/women/women56.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 57,
+      "price": 28,
+      "name": "women57",
+      "imgUrl": "/assets/categories/women/women57.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 58,
+      "price": 20,
+      "name": "women58",
+      "imgUrl": "/assets/categories/women/women58.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 59,
+      "price": 16,
+      "name": "women59",
+      "imgUrl": "/assets/categories/women/women59.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 60,
+      "price": 12,
+      "name": "women60",
+      "imgUrl": "/assets/categories/women/women60.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 61,
+      "price": 13,
+      "name": "women61",
+      "imgUrl": "/assets/categories/women/women61.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 62,
+      "price": 5,
+      "name": "women62",
+      "imgUrl": "/assets/categories/women/women62.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    },
+    {
+      "id": 63,
+      "price": 31,
+      "name": "women63",
+      "imgUrl": "/assets/categories/women/women63.jpg",
+      "type": "pants"
+    },
+    {
+      "id": 64,
+      "price": 41,
+      "name": "women64",
+      "imgUrl": "/assets/categories/women/women64.jpg",
+      "isNew": "true",
+      "type": "shoes"
+    }
+  ] 

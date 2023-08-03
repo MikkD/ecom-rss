@@ -1,0 +1,164 @@
+[
+    {
+      "id": 1,
+      "price": 36,
+      "name": "accessories1",
+      "imgUrl": "/assets/categories/accessories/accessories1.jpg"
+    },
+    {
+      "id": 2,
+      "price": 46,
+      "name": "accessories2",
+      "imgUrl": "/assets/categories/accessories/accessories2.jpg",
+      "isNew": "true"
+    },
+    {
+      "id": 3,
+      "price": 29,
+      "name": "accessories3",
+      "imgUrl": "/assets/categories/accessories/accessories3.jpg"
+    },
+    {
+      "id": 4,
+      "price": 10,
+      "name": "accessories4",
+      "imgUrl": "/assets/categories/accessories/accessories4.jpg",
+      "isNew": "true"
+    },
+    {
+      "id": 5,
+      "price": 33,
+      "name": "accessories5",
+      "imgUrl": "/assets/categories/accessories/accessories5.jpg"
+    },
+    {
+      "id": 6,
+      "price": 8,
+      "name": "accessories6",
+      "imgUrl": "/assets/categories/accessories/accessories6.jpg",
+      "isNew": "true"
+    },
+    {
+      "id": 7,
+      "price": 38,
+      "name": "accessories7",
+      "imgUrl": "/assets/categories/accessories/accessories7.jpg"
+    },
+    {
+      "id": 8,
+      "price": 41,
+      "name": "accessories8",
+      "imgUrl": "/assets/categories/accessories/accessories8.jpg",
+      "isNew": "true"
+    },
+    {
+      "id": 9,
+      "price": 11,
+      "name": "accessories9",
+      "imgUrl": "/assets/categories/accessories/accessories9.jpg"
+    },
+    {
+      "id": 10,
+      "price": 47,
+      "name": "accessories10",
+      "imgUrl": "/assets/categories/accessories/accessories10.jpg",
+      "isNew": "true"
+    },
+    {
+      "id": 11,
+      "price": 24,
+      "name": "accessories11",
+      "imgUrl": "/assets/categories/accessories/accessories11.jpg"
+    },
+    {
+      "id": 12,
+      "price": 21,
+      "name": "accessories12",
+      "imgUrl": "/assets/categories/accessories/accessories12.jpg",
+      "isNew": "true"
+    },
+    {
+      "id": 13,
+      "price": 35,
+      "name": "accessories13",
+      "imgUrl": "/assets/categories/accessories/accessories13.jpg"
+    },
+    {
+      "id": 14,
+      "price": 29,
+      "name": "accessories14",
+      "imgUrl": "/assets/categories/accessories/accessories14.jpg",
+      "isNew": "true"
+    },
+    {
+      "id": 15,
+      "price": 44,
+      "name": "accessories15",
+      "imgUrl": "/assets/categories/accessories/accessories15.jpg"
+    },
+    {
+      "id": 16,
+      "price": 44,
+      "name": "accessories16",
+      "imgUrl": "/assets/categories/accessories/accessories16.jpg",
+      "isNew": "true"
+    },
+    {
+      "id": 17,
+      "price": 36,
+      "name": "accessories17",
+      "imgUrl": "/assets/categories/accessories/accessories17.jpg"
+    },
+    {
+      "id": 18,
+      "price": 15,
+      "name": "accessories18",
+      "imgUrl": "/assets/categories/accessories/accessories18.jpg",
+      "isNew": "true"
+    },
+    {
+      "id": 19,
+      "price": 14,
+      "name": "accessories19",
+      "imgUrl": "/assets/categories/accessories/accessories19.jpg"
+    },
+    {
+      "id": 20,
+      "price": 21,
+      "name": "accessories20",
+      "imgUrl": "/assets/categories/accessories/accessories20.jpg",
+      "isNew": "true"
+    },
+    {
+      "id": 21,
+      "price": 31,
+      "name": "accessories21",
+      "imgUrl": "/assets/categories/accessories/accessories21.jpg"
+    },
+    {
+      "id": 22,
+      "price": 17,
+      "name": "accessories22",
+      "imgUrl": "/assets/categories/accessories/accessories22.jpg",
+      "isNew": "true"
+    },
+    {
+      "id": 23,
+      "price": 14,
+      "name": "accessories23",
+      "imgUrl": "/assets/categories/accessories/accessories23.jpg"
+    },
+    {
+      "id": 24,
+      "price": 31,
+      "name": "accessories24",
+      "imgUrl": "/assets/categories/accessories/accessories24.jpg",
+      "isNew": "true"
+    },
+    {
+      "id": 25,
+      "price": 37,
+      "name": "accessories25",
+      "imgUrl": "/assets/categories/accessories/accessories25.jpg"
+    }
+  ] 

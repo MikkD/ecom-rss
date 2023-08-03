@@ -1,0 +1,177 @@
+[
+    {
+      "id": 1,
+      "price": 22,
+      "name": "new1",
+      "imgUrl": "/assets/categories/new/new1.jpg",
+      "type": "shoes"
+    },
+    {
+      "id": 2,
+      "price": 37,
+      "name": "new2",
+      "imgUrl": "/assets/categories/new/new2.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 3,
+      "price": 10,
+      "name": "new3",
+      "imgUrl": "/assets/categories/new/new3.jpg",
+      "type": "shoes"
+    },
+    {
+      "id": 4,
+      "price": 10,
+      "name": "new4",
+      "imgUrl": "/assets/categories/new/new4.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 5,
+      "price": 4,
+      "name": "new5",
+      "imgUrl": "/assets/categories/new/new5.jpg",
+      "type": "shoes"
+    },
+    {
+      "id": 6,
+      "price": 38,
+      "name": "new6",
+      "imgUrl": "/assets/categories/new/new6.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 7,
+      "price": 24,
+      "name": "new7",
+      "imgUrl": "/assets/categories/new/new7.jpg",
+      "type": "shoes"
+    },
+    {
+      "id": 8,
+      "price": 28,
+      "name": "new8",
+      "imgUrl": "/assets/categories/new/new8.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 9,
+      "price": 41,
+      "name": "new9",
+      "imgUrl": "/assets/categories/new/new9.jpg",
+      "type": "shoes"
+    },
+    {
+      "id": 10,
+      "price": 13,
+      "name": "new10",
+      "imgUrl": "/assets/categories/new/new10.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 11,
+      "price": 8,
+      "name": "new11",
+      "imgUrl": "/assets/categories/new/new11.jpg",
+      "type": "shoes"
+    },
+    {
+      "id": 12,
+      "price": 25,
+      "name": "new12",
+      "imgUrl": "/assets/categories/new/new12.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 13,
+      "price": 8,
+      "name": "new13",
+      "imgUrl": "/assets/categories/new/new13.jpg",
+      "type": "shoes"
+    },
+    {
+      "id": 14,
+      "price": 25,
+      "name": "new14",
+      "imgUrl": "/assets/categories/new/new14.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 15,
+      "price": 50,
+      "name": "new15",
+      "imgUrl": "/assets/categories/new/new15.jpg",
+      "type": "shoes"
+    },
+    {
+      "id": 16,
+      "price": 43,
+      "name": "new16",
+      "imgUrl": "/assets/categories/new/new16.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 17,
+      "price": 21,
+      "name": "new17",
+      "imgUrl": "/assets/categories/new/new17.jpg",
+      "type": "shoes"
+    },
+    {
+      "id": 18,
+      "price": 46,
+      "name": "new18",
+      "imgUrl": "/assets/categories/new/new18.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 19,
+      "price": 13,
+      "name": "new19",
+      "imgUrl": "/assets/categories/new/new19.jpg",
+      "type": "shoes"
+    },
+    {
+      "id": 20,
+      "price": 44,
+      "name": "new20",
+      "imgUrl": "/assets/categories/new/new20.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 21,
+      "price": 43,
+      "name": "new21",
+      "imgUrl": "/assets/categories/new/new21.jpg",
+      "type": "shoes"
+    },
+    {
+      "id": 22,
+      "price": 31,
+      "name": "new22",
+      "imgUrl": "/assets/categories/new/new22.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 23,
+      "price": 7,
+      "name": "new23",
+      "imgUrl": "/assets/categories/new/new23.jpg",
+      "type": "shoes"
+    },
+    {
+      "id": 24,
+      "price": 6,
+      "name": "new24",
+      "imgUrl": "/assets/categories/new/new24.jpg",
+      "type": "jeans"
+    },
+    {
+      "id": 25,
+      "price": 9,
+      "name": "new25",
+      "imgUrl": "/assets/categories/new/new25.jpg",
+      "type": "shoes"
+    }
+  ] 
