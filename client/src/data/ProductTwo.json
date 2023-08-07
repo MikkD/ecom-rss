@@ -1,0 +1,39 @@
+{
+  "id": "203",
+  "skuId":"203",
+  "price": 30,
+  "name": "Product Two",
+  "type": "T-Shirt",
+  "gallery":[
+    {
+      "id": 1,
+      "name": "pdp1",
+      "imgUrl": "/assets/product/pdp-product1.png",
+      "type": "shoes"
+    },
+    {
+      "id": 2,
+      "name": "pdp2",
+      "imgUrl": "/assets/product/pdp-product2.png",
+      "type": "shoes"
+    },
+    {
+      "id": 3,
+      "name": "pdp3",
+      "imgUrl": "/assets/product/pdp-product3.png",
+      "type": "shoes"
+    },
+    {
+      "id": 4,
+      "name": "pdp4",
+      "imgUrl": "/assets/product/pdp-product4.png",
+      "type": "shoes"
+    },
+    {
+      "id": 5,
+      "name": "pdp5",
+      "imgUrl": "/assets/product/pdp-product5.png",
+      "type": "shoes"
+    }
+  ]
+}

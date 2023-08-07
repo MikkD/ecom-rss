@@ -8,6 +8,7 @@ const menCategoryAssets = require('./data/categories/menCategoryAssets.json');
 const womenCategoryAssets = require('./data/categories/womenCategoryAssets.json');
 const accessoriesCategoryAssets = require('./data/categories/accessoriesCategoryAssets.json');
 const saleCategoryAssets = require('./data/categories/saleCategoryAssets.json');
+const singleProductAssets = require('./data/singleProductAssets.json');
 
 const app = express();
 app.use(cors());
@@ -50,6 +51,16 @@ app.get('/category/sale', (req, res) => {
 app.get('/category/accessories', (req, res) => {
     setTimeout(() => res.json(accessoriesCategoryAssets), 1000);
     // res.json(categoriesAssets);
+});
+
+app.get('/product/:id', (req, res) => {
+    const id = req.params.id; // Get the dynamic ID from the URL
+    let asset = true;
+    if (asset) {
+        setTimeout(() => res.json(singleProductAssets), 1000);
+    } else {
+        res.status(404).send('Product not found'); // Send a 404 if the ID does not match a product
+    }
 });
 
 const port = 5000;

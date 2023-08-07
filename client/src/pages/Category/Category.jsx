@@ -9,27 +9,8 @@ import { useParams } from 'react-router-dom';
 import Products from '../../shared/Products/Products';
 import './Category.scss';
 import { useSelector, useDispatch } from 'react-redux';
-import useFetchProducts from '../../hooks/useFetchProducts';
 
-// UTILS
-// const getCategoryProducts = (name) => {
-//     switch (name) {
-//         case 'men':
-//             return menCategoryAssets;
-//         case 'women':
-//             return womenCategoryAssets;
-//         case 'new':
-//             return newCategoryAssets;
-//         case 'trendy':
-//             return trendyCategoryAssets;
-//         case 'sale':
-//             return saleCategoryAssets;
-//         case 'accessories':
-//             return accessoriesCategoryAssets;
-//         default:
-//             return [];
-//     }
-// };
+import { useGetProductsByCategoryQuery } from '../../services/categoryProducts';
 
 // SHARED
 const CheckBox = ({ type }) => {
@@ -116,26 +97,26 @@ const SortByFilter = () => {
 };
 
 function Category() {
-    //*React-router-dom
     const { name: categoryName } = useParams();
 
-    //*Fetch
-    const url = `http://localhost:5000/category/${categoryName}`;
-    useFetchProducts({ url, categoryName });
-
-    //*Redux
-    const categoryProducts = useSelector((state) => state.categoryProducts[categoryName]);
-    const isDataLoading = useSelector((state) => state.categoryProducts.isLoading);
-    const isDataError = useSelector((state) => state.categoryProducts.isError);
+    const {
+        data: categoryProducts,
+        error: isDataError,
+        isLoading: isDataLoading,
+    } = useGetProductsByCategoryQuery(categoryName);
 
     //*ProductTypeFilter
-    const productTypes = [...new Set(categoryProducts.map(({ type }) => type))].filter(
+    const productTypes = [...new Set(categoryProducts?.map(({ type }) => type))].filter(
         Boolean
     );
 
     //*PriceRangeFilter
-    const maxPrice = Math.max(...categoryProducts.map(({ price }) => price));
-    const minPrice = Math.min(...categoryProducts.map(({ price }) => price));
+    const maxPrice =
+        categoryProducts?.length &&
+        Math.max(...categoryProducts?.map(({ price }) => price));
+    const minPrice =
+        categoryProducts?.length &&
+        Math.min(...categoryProducts?.map(({ price }) => price));
 
     return (
         <div className='product-category'>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import fallBackSliderAssets from '../../data/sliderAssets.json'; //TODO-REMOVE-AFTER-MIGRATION
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
@@ -6,7 +6,7 @@ import './Slider.scss';
 import useFetchData from '../../hooks/useFetchData';
 
 function Slider() {
-    const sliderAssetsUrl = 'http://localhost:5000/slider-assets';
+    const sliderAssetsUrl = 'http://localhost:5000/slider-assets'; //TODO-REPLACE-RTQ
     const [transitionStep, setTransitionStep] = useState(0);
     const [assets, isError, isLoading] = useFetchData({
         url: sliderAssetsUrl,
