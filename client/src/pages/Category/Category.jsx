@@ -9,42 +9,58 @@ import { useParams } from 'react-router-dom';
 import Products from '../../shared/Products/Products';
 import './Category.scss';
 import { useSelector, useDispatch } from 'react-redux';
-
 import { useGetProductsByCategoryQuery } from '../../services/categoryProducts';
 
-// SHARED
-const CheckBox = ({ type }) => {
-    const [isChecked, setIsChecked] = useState(false);
+const CheckBox = ({ type, isChecked, handleCheckboxChange }) => {
     return (
         <label htmlFor={type}>
             <input
                 name={type}
                 id={type}
                 type='checkbox'
-                defaultChecked={false}
-                onChange={() => setIsChecked(!isChecked)}
-                value={isChecked}
+                onChange={handleCheckboxChange}
+                checked={isChecked}
             />
             {type}
         </label>
     );
 };
 
-const ProductTypeFilter = ({ productTypes }) => {
+const ProductTypeFilter = ({ productTypes, handleFilterByType }) => {
+    const [checkBoxes, setCheckBoxes] = useState({});
+
+    useEffect(() => {
+        setCheckBoxes(
+            productTypes.reduce((acc, type) => ({ ...acc, [type]: false }), {})
+        );
+    }, [productTypes]);
+
+    const handleCheckboxChange = (event) => {
+        setCheckBoxes((prevState) => ({
+            ...prevState,
+            [event.target.name]: event.target.checked,
+        }));
+    };
+
+    useEffect(() => {
+        console.log('checkBoxes changed', checkBoxes);
+    }, [checkBoxes]);
+
     return (
-        !!productTypes.length && (
-            <div className='product-type-filter'>
-                <h5 className='product-type-filter-title'>Product Types</h5>
-                <div className='product-type-filter-box'>
-                    {productTypes.map((type) => (
-                        <CheckBox key={type} type={type} />
-                    ))}
-                </div>
+        <div className='product-type-filter'>
+            <h5 className='product-type-filter-title'>Product Types</h5>
+            <div className='product-type-filter-box'>
+                {Object.entries(checkBoxes).map(([type, isChecked]) => (
+                    <CheckBox
+                        type={type}
+                        isChecked={isChecked}
+                        handleCheckboxChange={handleCheckboxChange}
+                    />
+                ))}
             </div>
-        )
+        </div>
     );
 };
-
 const PriceRangeFilter = ({ minPrice, maxPrice }) => {
     const [filterNumber, setFilterNumber] = useState(0);
     return (
@@ -104,11 +120,23 @@ function Category() {
         error: isDataError,
         isLoading: isDataLoading,
     } = useGetProductsByCategoryQuery(categoryName);
+    console.log(
+        '🚀 ~ file: Category.jsx:107 ~ Category ~ categoryProducts:',
+        categoryProducts
+    );
+
+    const [products, setProducts] = useState(categoryProducts);
+    console.log('🚀 ~ file: Category.jsx:110 ~ Category ~ products:', products);
 
     //*ProductTypeFilter
     const productTypes = [...new Set(categoryProducts?.map(({ type }) => type))].filter(
         Boolean
     );
+    const handleFilterByType = (filterType) => {
+        setProducts((prevProducts) =>
+            prevProducts.filter((product) => product.type === filterType)
+        );
+    };
 
     //*PriceRangeFilter
     const maxPrice =
@@ -123,7 +151,13 @@ function Category() {
             <div className='category-sidebar'>
                 <h4 className='sidebar-title'>{categoryName}</h4>
                 <div className='sidebar-filters'>
-                    <ProductTypeFilter productTypes={productTypes} />
+                    {!!productTypes.length && (
+                        <ProductTypeFilter
+                            productTypes={productTypes}
+                            handleFilterByType={handleFilterByType}
+                        />
+                    )}
+
                     <PriceRangeFilter maxPrice={maxPrice} minPrice={minPrice} />
                     <SortByFilter />
                 </div>

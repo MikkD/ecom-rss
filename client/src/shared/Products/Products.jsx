@@ -3,7 +3,7 @@ import './Products.scss';
 import Card from '../Card/Card';
 
 function Products({ title, assets, description }) {
-    if (!assets.length) return;
+    if (!assets?.length) return;
 
     return (
         <div className='products'>
