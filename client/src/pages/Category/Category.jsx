@@ -24,21 +24,39 @@ function Category() {
 
     console.log('categoryProducts', categoryProducts);
     //*ProductTypeFilter
-    const productTypes = getCategoryProductTypes(categoryProducts);
+    // const productTypes = getCategoryProductTypes(categoryProducts);
 
     //*PriceRangeFilter
     const [minPrice, maxPrice] = getProductsPriceRange(categoryProducts);
 
-    const [checkBoxes, setCheckBoxes] = useState({});
+    // const [checkBoxes, setCheckBoxes] = useState({});
     const [priceRangeFilterValue, setPriceRangeFilterValue] = useState(0);
     const [sortByFilterValue, setSortByFilterValue] = useState(
         priceFilterOptions[0].type
     );
 
+    const [selectedProductTypes, setSelectedProductTypes] = useState([]);
+    console.log('🚀 ~ file: slectedProductTypes OUTSIDE:', selectedProductTypes);
+
+    // useEffect(() => {
+    //     setCheckBoxes(
+    //         productTypes.reduce((acc, type) => ({ ...acc, [type]: false }), {})
+    //     );
+    // }, [categoryProducts]);
+
     useEffect(() => {
-        setCheckBoxes(
-            productTypes.reduce((acc, type) => ({ ...acc, [type]: false }), {})
-        );
+        const getCategoryProductTypes = (categoryProducts) => {
+            if (!categoryProducts[0]?.type) return categoryProducts;
+            return [...new Set(categoryProducts?.map(({ type }) => type))].map(
+                (type) => ({
+                    type,
+                    isChecked: false,
+                })
+            );
+        };
+
+        const productTypes = getCategoryProductTypes(categoryProducts);
+        setSelectedProductTypes(productTypes);
     }, [categoryProducts]);
 
     useEffect(() => {
@@ -54,36 +72,39 @@ function Category() {
     const sortByPriceRange = (arr = [], sortVal) =>
         arr.filter(({ price }) => price < sortVal);
 
-    const filteredProducts = React.useMemo(() => {
-        //TODO REFACTOR BELOW?
-        const activeProductTypeFilters = Object.entries(checkBoxes)
-            .map(([type, isChecked]) => (isChecked ? type : null))
-            .filter(Boolean);
+    const filterByType = (arrToFilter, activeFiltersArr) =>
+        arrToFilter.filter((product) => activeFiltersArr.includes(product.type));
 
-        if (activeProductTypeFilters.length) {
-            const filteredByTypeProducts = categoryProducts.filter((product) =>
-                activeProductTypeFilters.includes(product.type)
-            );
-            return sortByPrice(filteredByTypeProducts, priceRangeFilterValue);
-        }
+    const filteredProducts = React.useMemo(() => {
+        const activeProductTypeFilters = selectedProductTypes
+            .map(({ type, isChecked }) => (isChecked ? type : null))
+            .filter(Boolean);
 
         const sortedByPriceRange = sortByPriceRange(
             categoryProducts,
             priceRangeFilterValue
         );
+
         const sortedByPrice = sortByPrice(sortedByPriceRange, sortByFilterValue);
-        return sortedByPrice;
-    }, [productTypes, checkBoxes, categoryProducts, priceRangeFilterValue]);
+
+        if (!activeProductTypeFilters.length) return sortedByPrice;
+        return filterByType(sortedByPrice, activeProductTypeFilters);
+    }, [
+        sortByFilterValue,
+        selectedProductTypes,
+        categoryProducts,
+        priceRangeFilterValue,
+    ]);
 
     return (
         <div className='product-category'>
             <div className='category-sidebar'>
                 <h4 className='sidebar-title'>{categoryName}</h4>
                 <div className='sidebar-filters'>
-                    {!!productTypes.length && (
+                    {!!selectedProductTypes.length && (
                         <ProductTypeFilter
-                            setCheckBoxes={setCheckBoxes}
-                            checkBoxes={checkBoxes}
+                            setSelectedProductTypes={setSelectedProductTypes}
+                            selectedProductTypes={selectedProductTypes}
                         />
                     )}
 

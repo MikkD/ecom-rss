@@ -1,18 +1,23 @@
 import CheckBox from '../../shared/Checkbox/Checkbox';
 
-const ProductTypeFilter = ({ checkBoxes, setCheckBoxes }) => {
+const ProductTypeFilter = ({ selectedProductTypes, setSelectedProductTypes }) => {
     const handleCheckboxChange = (event) => {
-        setCheckBoxes((prevState) => ({
-            ...prevState,
-            [event.target.name]: event.target.checked,
-        }));
+        const selectedType = event.target.name;
+
+        setSelectedProductTypes((prevSelectedProdTypes) => {
+            return prevSelectedProdTypes.map((prevType) => {
+                return prevType.type === selectedType
+                    ? { ...prevType, isChecked: !prevType.isChecked }
+                    : prevType;
+            });
+        });
     };
 
     return (
         <div className='product-type-filter'>
             <h5 className='product-type-filter-title'>Product Types</h5>
             <div className='product-type-filter-box'>
-                {Object.entries(checkBoxes).map(([type, isChecked]) => (
+                {selectedProductTypes.map(({ type, isChecked }) => (
                     <CheckBox
                         key={type}
                         type={type}

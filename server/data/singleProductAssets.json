@@ -1,41 +1,41 @@
 {
-  "id": "11",
-  "skuId":"123",
-  "price": 22,
+  "id": "1",
+  "skuId":"sku123",
+  "price":400,
   "name": "Jacket - Product One",
   "type": "Jacket",
   "vendor":"Neiman Marcus",
   "tag":"Men,Jacket",
-  "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae soluta",
+  "description":" We changed the suiting game when we introduced the Ludlow in 2008, proving that you can get a suit made with the world's best fabrics and with details you'd find in a four-figure suit for a fraction of the cost. ",
   "gallery":[
     {
       "id": 1,
       "name": "pdp1",
-      "imgUrl": "/assets/product/pdp-product1.png",
+      "imgUrl": "/assets/product/pdp1/pdp-product1.png",
       "type": "shoes"
     },
     {
       "id": 2,
       "name": "pdp2",
-      "imgUrl": "/assets/product/pdp-product2.png",
+      "imgUrl": "/assets/product/pdp1/pdp-product2.png",
       "type": "shoes"
     },
     {
       "id": 3,
       "name": "pdp3",
-      "imgUrl": "/assets/product/pdp-product3.png",
+      "imgUrl": "/assets/product/pdp1/pdp-product3.png",
       "type": "shoes"
     },
     {
       "id": 4,
       "name": "pdp4",
-      "imgUrl": "/assets/product/pdp-product4.png",
+      "imgUrl": "/assets/product/pdp1/pdp-product4.png",
       "type": "shoes"
     },
     {
       "id": 5,
       "name": "pdp5",
-      "imgUrl": "/assets/product/pdp-product5.png",
+      "imgUrl": "/assets/product/pdp1/pdp-product5.png",
       "type": "shoes"
     }
   ]

@@ -8,7 +8,9 @@ const menCategoryAssets = require('./data/categories/menCategoryAssets.json');
 const womenCategoryAssets = require('./data/categories/womenCategoryAssets.json');
 const accessoriesCategoryAssets = require('./data/categories/accessoriesCategoryAssets.json');
 const saleCategoryAssets = require('./data/categories/saleCategoryAssets.json');
-const singleProductAssets = require('./data/singleProductAssets.json');
+const pdp = require('./data/singleProductAssets.json');
+const pdp2 = require('./data/singleProduct2Assets.json');
+const pdp3 = require('./data/singleProduct3Assets.json');
 
 const app = express();
 app.use(cors());
@@ -56,11 +58,38 @@ app.get('/category/accessories', (req, res) => {
 app.get('/product/:id', (req, res) => {
     const id = req.params.id; // Get the dynamic ID from the URL
     let asset = true;
-    if (asset) {
-        setTimeout(() => res.json(singleProductAssets), 1000);
-    } else {
-        res.status(404).send('Product not found'); // Send a 404 if the ID does not match a product
+
+    //TODO - To remove
+    if (id === 1) {
+        return setTimeout(() => res.json(pdp), 1000);
     }
+
+    if (id === 2) {
+        return setTimeout(() => res.json(pdp2), 1000);
+    }
+
+    if (id === 3) {
+        return setTimeout(() => res.json(pdp3), 1000);
+    }
+
+    if (id > 3 && id < 15) {
+        return setTimeout(() => res.json(pdp), 1000);
+    }
+
+    if (id > 15 && id < 30) {
+        return setTimeout(() => res.json(pdp2), 1000);
+    }
+
+    if (id > 30) {
+        return setTimeout(() => res.json(pdp3), 1000);
+    }
+
+    // if (asset) {
+    //
+    //     setTimeout(() => res.json(pdpData[randomNum]), 1000);
+    // } else {
+    //     res.status(404).send('Product not found'); // Send a 404 if the ID does not match a product
+    // }
 });
 
 const port = 5000;
