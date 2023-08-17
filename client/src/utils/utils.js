@@ -9,8 +9,13 @@ export const priceFilterOptions = [
     },
 ];
 
-export const getCategoryProductTypes = (categoryProducts) =>
-    [...new Set(categoryProducts?.map(({ type }) => type))].filter(Boolean);
+export const getCategoryProductTypes = (categoryProducts) => {
+    if (!categoryProducts[0]?.type) return [];
+    return [...new Set(categoryProducts?.map(({ type }) => type))].map((type) => ({
+        type,
+        isChecked: false,
+    }));
+};
 
 export const getProductsPriceRange = (categoryProducts) => {
     const categoryProductsPrices = categoryProducts?.map(({ price }) => price);
@@ -19,3 +24,15 @@ export const getProductsPriceRange = (categoryProducts) => {
 
     return [minPrice, maxPrice];
 };
+
+export const sortByPrice = (arr = [], sortVal) => {
+    if (!arr.length) return;
+    if (sortVal === 'HTL') return [...arr].sort((a, b) => b.price - a.price);
+    return [...arr].sort((a, b) => a.price - b.price);
+};
+
+export const sortByPriceRange = (arr = [], sortVal) =>
+    arr.filter(({ price }) => price < sortVal);
+
+export const filterByType = (arrToFilter, activeFiltersArr) =>
+    arrToFilter.filter((product) => activeFiltersArr.includes(product.type));

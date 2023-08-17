@@ -1,36 +1,44 @@
 import React from 'react';
+import { clearCart } from '../../redux/reducers/shoppingCartSlice';
 import './ShoppingCart.scss';
-import pdpGallery from '../../data/pdpGallery';
+import { useDispatch } from 'react-redux';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
-const shoppingCartItem = pdpGallery[0];
-console.log('🚀 ~ file: ShoppingCart.jsx:4 ~ ProductGallery:', pdpGallery);
+import { removeFromCart } from '../../redux/reducers/shoppingCartSlice';
 
-const ShoppingCartList = () => {
+const ShoppingCartList = ({ cartItems, dispatch }) => {
     return (
         <ul className='shopping-cart-list'>
-            <li className='shopping-cart-li'>
-                <div className='shopping-cart-li-img'>
-                    <img src={shoppingCartItem.imgUrl} alt={shoppingCartItem.name} />
-                </div>
-                <div className='shopping-cart-li-info'>
-                    <h4>Shirt</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-                        amet vitae molestiae omnis culpa perferendis, eaque voluptate,
-                        sapiente non voluptates ab error adipisci eius nostrum! Accusamus
-                        maxime deserunt rerum dolores?
-                    </p>
-                    <span>1X19$</span>
-                </div>
-                <div className='shopping-cart-li-rmv-btn'>
-                    <DeleteForeverIcon />
-                </div>
-            </li>
+            {cartItems.map((cartItem) => (
+                <li key={cartItem.id} className='shopping-cart-li'>
+                    <div className='shopping-cart-li-img'>
+                        <img src={cartItem.imgUrl} alt={cartItem.name} />
+                    </div>
+                    <div className='shopping-cart-li-info'>
+                        <h4>{cartItem.name}</h4>
+                        <p>{cartItem.description}</p>
+                        <span>
+                            {cartItem.qty} X {cartItem.price}$
+                        </span>
+                    </div>
+                    <div
+                        onClick={() => dispatch(removeFromCart(cartItem.id))}
+                        className='shopping-cart-li-rmv-btn'>
+                        <DeleteForeverIcon />
+                    </div>
+                </li>
+            ))}
         </ul>
     );
 };
 
-function ShoppingCart({ isShoppingCartOpen, setIsShoppingCartActive }) {
+function ShoppingCart({
+    isShoppingCartOpen,
+    setIsShoppingCartActive,
+    cartItems,
+    grandTotal,
+}) {
+    const dispatch = useDispatch();
+
     return (
         <div className={`shopping-cart-container ${isShoppingCartOpen ? 'active' : ''}`}>
             <div className='shopping-cart-header'>
@@ -42,15 +50,15 @@ function ShoppingCart({ isShoppingCartOpen, setIsShoppingCartActive }) {
                 </button>
             </div>
             <div className='sc-main'>
-                <ShoppingCartList />
+                <ShoppingCartList cartItems={cartItems} dispatch={dispatch} />
             </div>
             <div className='shopping-cart-footer'>
-                <div className='subtotal'>Subtotal:</div>
+                <div className='subtotal'>Subtotal:{grandTotal}</div>
                 <div className='checkout-btn'>
-                    <button>Proceed to Checkout</button>
+                    <button disabled={!cartItems.length}>Proceed to Checkout</button>
                 </div>
                 <div className='reset-btn'>
-                    <button>Reset</button>
+                    <button onClick={() => dispatch(clearCart())}>Reset</button>
                 </div>
             </div>
         </div>

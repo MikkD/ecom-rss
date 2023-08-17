@@ -5,6 +5,9 @@ import {
     priceFilterOptions,
     getCategoryProductTypes,
     getProductsPriceRange,
+    sortByPrice,
+    sortByPriceRange,
+    filterByType,
 } from '../../utils/utils';
 import Products from '../../shared/Products/Products';
 import PriceRangeFilter from '../../components/PriceRangeFilter/PriceRangeFilter';
@@ -22,58 +25,24 @@ function Category() {
         isLoading: isDataLoading,
     } = useGetProductsByCategoryQuery(categoryName);
 
-    console.log('categoryProducts', categoryProducts);
-    //*ProductTypeFilter
-    // const productTypes = getCategoryProductTypes(categoryProducts);
-
     //*PriceRangeFilter
     const [minPrice, maxPrice] = getProductsPriceRange(categoryProducts);
 
-    // const [checkBoxes, setCheckBoxes] = useState({});
     const [priceRangeFilterValue, setPriceRangeFilterValue] = useState(0);
     const [sortByFilterValue, setSortByFilterValue] = useState(
         priceFilterOptions[0].type
     );
-
     const [selectedProductTypes, setSelectedProductTypes] = useState([]);
-    console.log('🚀 ~ file: slectedProductTypes OUTSIDE:', selectedProductTypes);
-
-    // useEffect(() => {
-    //     setCheckBoxes(
-    //         productTypes.reduce((acc, type) => ({ ...acc, [type]: false }), {})
-    //     );
-    // }, [categoryProducts]);
+    const fetchedProductName = categoryProducts[0]?.name;
 
     useEffect(() => {
-        const getCategoryProductTypes = (categoryProducts) => {
-            if (!categoryProducts[0]?.type) return categoryProducts;
-            return [...new Set(categoryProducts?.map(({ type }) => type))].map(
-                (type) => ({
-                    type,
-                    isChecked: false,
-                })
-            );
-        };
-
         const productTypes = getCategoryProductTypes(categoryProducts);
         setSelectedProductTypes(productTypes);
-    }, [categoryProducts]);
+    }, [fetchedProductName, categoryProducts.length]);
 
     useEffect(() => {
         setPriceRangeFilterValue(maxPrice);
     }, [maxPrice]);
-
-    const sortByPrice = (arr = [], sortVal) => {
-        if (!arr.length) return;
-        if (sortVal === 'HTL') return arr.sort((a, b) => b.price - a.price);
-        return arr.sort((a, b) => a.price - b.price);
-    };
-
-    const sortByPriceRange = (arr = [], sortVal) =>
-        arr.filter(({ price }) => price < sortVal);
-
-    const filterByType = (arrToFilter, activeFiltersArr) =>
-        arrToFilter.filter((product) => activeFiltersArr.includes(product.type));
 
     const filteredProducts = React.useMemo(() => {
         const activeProductTypeFilters = selectedProductTypes

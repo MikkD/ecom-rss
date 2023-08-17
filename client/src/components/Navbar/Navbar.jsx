@@ -6,9 +6,17 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import ShoppingCart from '../ShoppingCart/ShoppingCart';
 import './Navbar.scss';
+import { useSelector } from 'react-redux';
 
 function Navbar() {
     const [isShoppingCartOpen, setIsShoppingCartActive] = useState(false);
+    const cartItems = useSelector((state) => state.cart.cartItems);
+    const totalNumberOfCartItems = cartItems.reduce(
+        (acc, cartItem) => acc + cartItem.qty,
+        0
+    );
+    const grandTotal = cartItems.reduce((acc, cartItem) => acc + cartItem.total, 0);
+
     return (
         <header>
             <nav className='nav-wrapper'>
@@ -35,11 +43,15 @@ function Navbar() {
                             className='cart-icon'
                             onClick={() => setIsShoppingCartActive(true)}>
                             <ShoppingCartIcon />
-                            <div className='cart-icon-counter'>1</div>
+                            <div className='cart-icon-counter'>
+                                {totalNumberOfCartItems}
+                            </div>
                         </div>
                     </div>
                 </div>
                 <ShoppingCart
+                    grandTotal={grandTotal}
+                    cartItems={cartItems}
                     isShoppingCartOpen={isShoppingCartOpen}
                     setIsShoppingCartActive={setIsShoppingCartActive}
                 />

@@ -3,12 +3,31 @@ import './ProductPage.scss';
 import { useParams } from 'react-router-dom';
 import ProductGallery from '../../components/ProductGallery/ProductGallery';
 import { useGetProductDetailsQuery } from '../../services/productDetails';
+import { useDispatch, useSelector } from 'react-redux';
+import { addToCart } from '../../redux/reducers/shoppingCartSlice';
 
 const ProductInfo = ({
-    product: { name, type, vendor, tag, price, id, skuId, description },
+    product: { name, type, vendor, tag, price, id, skuId, description, gallery },
 }) => {
-    const [counter, setCounter] = useState(1);
+    const [qty, setQty] = useState(1);
+    const dispatch = useDispatch();
+    const cartItems = useSelector((state) => state.cart.cartItems);
+    console.log('🚀 ~ file: ProductPage.jsx:15 ~ cartItems:', cartItems);
 
+    const addToShoppingCart = () => {
+        dispatch(
+            addToCart({
+                id,
+                price,
+                qty,
+                skuId,
+                description,
+                imgUrl: gallery[0].imgUrl,
+                total: Number(qty * price),
+            })
+        );
+        setQty(1);
+    };
     return (
         <div className='product-info'>
             <h4 className='product-type'>{name}</h4>
@@ -16,20 +35,22 @@ const ProductInfo = ({
             <div className='product-description'>{description}</div>
             <div className='shopping-cart-counter'>
                 <button
-                    disabled={counter === 1}
+                    disabled={qty <= 1}
                     className='counter-btn'
-                    onClick={() => setCounter((prevCounter) => prevCounter - 1)}>
+                    onClick={() => setQty((prevCounter) => prevCounter - 1)}>
                     -
                 </button>
-                <span className='shopping-cart-counter-value'>{counter}</span>
+                <span className='shopping-cart-counter-value'>{qty}</span>
                 <button
                     className='counter-btn'
-                    onClick={() => setCounter((prevCounter) => prevCounter + 1)}>
+                    onClick={() => setQty((prevCounter) => prevCounter + 1)}>
                     +
                 </button>
             </div>
             <div className='shopping-cart-btn'>
-                <button className='add-to-cart-btn'>Add to Cart</button>
+                <button onClick={addToShoppingCart} className='add-to-cart-btn'>
+                    Add to Cart
+                </button>
             </div>
             <div className='product-extra-info'>
                 <p>Vendor:{vendor}</p>

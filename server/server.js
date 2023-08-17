@@ -58,38 +58,23 @@ app.get('/category/accessories', (req, res) => {
 app.get('/product/:id', (req, res) => {
     const id = req.params.id; // Get the dynamic ID from the URL
     let asset = true;
-
+    console.log('id', id);
     //TODO - To remove
-    if (id === 1) {
-        return setTimeout(() => res.json(pdp), 1000);
-    }
+    try {
+        if (id < 15) {
+            return setTimeout(() => res.json(pdp2), 1000);
+        }
 
-    if (id === 2) {
-        return setTimeout(() => res.json(pdp2), 1000);
-    }
+        if (id > 15 && id < 30) {
+            return setTimeout(() => res.json(pdp), 1000);
+        }
 
-    if (id === 3) {
-        return setTimeout(() => res.json(pdp3), 1000);
+        if (id > 30) {
+            return setTimeout(() => res.json(pdp3), 1000);
+        }
+    } catch (err) {
+        res.status(404).send('error is :', err); // Send a 404 if the ID does not match a product
     }
-
-    if (id > 3 && id < 15) {
-        return setTimeout(() => res.json(pdp), 1000);
-    }
-
-    if (id > 15 && id < 30) {
-        return setTimeout(() => res.json(pdp2), 1000);
-    }
-
-    if (id > 30) {
-        return setTimeout(() => res.json(pdp3), 1000);
-    }
-
-    // if (asset) {
-    //
-    //     setTimeout(() => res.json(pdpData[randomNum]), 1000);
-    // } else {
-    //     res.status(404).send('Product not found'); // Send a 404 if the ID does not match a product
-    // }
 });
 
 const port = 5000;

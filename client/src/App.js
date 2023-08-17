@@ -1,6 +1,5 @@
 import './App.scss';
 import Home from './pages/Home/Home';
-import ProductsPage from './pages/ProductsPage/ProductsPage';
 import ProductPage from './pages/ProductPage/ProductPage';
 import ErrorPage from './pages/Error/Error';
 import Navbar from './components/Navbar/Navbar';
@@ -16,7 +15,6 @@ function App() {
                 <main>
                     <Routes>
                         <Route path='/' element={<Home />} />
-                        <Route path='/products' element={<ProductsPage />} />
                         <Route path='/product/:id' element={<ProductPage />} />
                         <Route path='/category/:name' element={<Category />} />
                     </Routes>
