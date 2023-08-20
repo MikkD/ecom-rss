@@ -11,12 +11,9 @@ function useFetchData({ url }) {
         setIsLoading(true);
         fetch(url, { signal })
             .then((data) => {
-                console.log('🚀 ~  data:', data);
                 return data.json();
             })
             .then((parsedAssets) => {
-                console.log('🚀 ~ parsedAssets:', parsedAssets);
-
                 setAssets(parsedAssets);
                 setIsLoading(false);
             })

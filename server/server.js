@@ -1,4 +1,5 @@
 const express = require('express');
+const dotenv = require('dotenv');
 const cors = require('cors');
 const sliderAssets = require('./data/sliderAssets.json');
 const categoriesAssets = require('./data/categoriesAssets.json');
@@ -16,7 +17,7 @@ const app = express();
 app.use(cors());
 
 app.get('/slider-assets', (req, res) => {
-    setTimeout(() => res.json(sliderAssets), 1000);
+    setTimeout(() => res.status(200).json(sliderAssets), 1000);
     // res.json(sliderAssets)
 });
 
@@ -77,7 +78,7 @@ app.get('/product/:id', (req, res) => {
     }
 });
 
-const port = 5000;
+const port = process.env.PORT || 5000;
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });

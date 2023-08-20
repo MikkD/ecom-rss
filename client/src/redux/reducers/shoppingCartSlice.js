@@ -24,12 +24,10 @@ export const shoppingCartSlice = createSlice({
         substractFromCart(state, action) {},
         removeFromCart(state, action) {
             state.cartItems = state.cartItems.filter((cartItem) => {
-                console.log('cartItem inside', cartItem);
                 return cartItem.id !== action.payload;
             });
         },
         clearCart(state, action) {
-            console.log('crear cart');
             state.cartItems = [];
         },
     },
