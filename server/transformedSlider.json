@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "kiwi",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692852808/bfc46808de53a7d0aca8e9841ad072fa.jpg"
+  },
+  {
+    "id": 2,
+    "name": "lemon",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692852809/77027b4570c3bce62c878396d9f97e38.jpg"
+  },
+  {
+    "id": 3,
+    "name": "orange",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692852810/1c19dc0eb4025f05a0d4b2614acf5a28.jpg"
+  },
+  {
+    "id": 4,
+    "name": "watches",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692852811/a9ae520fab25482a81f862f71685ae8b.jpg"
+  }
+]

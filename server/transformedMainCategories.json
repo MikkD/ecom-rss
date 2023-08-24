@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "men",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692853038/4ef73ab68cdc863ead8130cc796034a9.jpg"
+  },
+  {
+    "id": 2,
+    "name": "women",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692853040/1b5a907bc2fa48cb9006e6a2a0b44581.jpg"
+  },
+  {
+    "id": 3,
+    "name": "sale",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692853042/1e3c48e2c09e962813f2df9c8b26f09c.jpg"
+  },
+  {
+    "id": 4,
+    "name": "new",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692853044/cfa460f7b31ab75d5d9655643b271e28.jpg"
+  },
+  {
+    "id": 5,
+    "name": "accessories",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692853046/81adb3b9a023f135c4cf850501b1c2c7.jpg"
+  },
+  {
+    "id": 6,
+    "name": "trendy",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692853049/34de6b67c2d1f1496ea23a6231253546.jpg"
+  }
+]

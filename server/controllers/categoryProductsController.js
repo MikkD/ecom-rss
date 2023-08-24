@@ -1,12 +1,12 @@
 const asyncHandler = require('express-async-handler');
-const categoryProductsModel = require('../models/categoryProductsModel');
 
-const getCategoryProducts = asyncHandler(async (req, res) => {
-    const categoryProducts = await categoryProductsModel.find();
-    console.log('🚀 ~getCategoryProducts ~ categoryProducts:', categoryProducts);
+const Products = require('../models/categoryProductsModel');
 
-    setTimeout(() => res.json({ message: 'YO PRODUCTS' }), 1000);
-});
+const getCategoryProducts = async (req, res) => {
+    const categoryType = req.params.categoryType;
+    const categoryProducts = await Products.find({ categoryType: `${categoryType}` });
+    res.status(200).json({ categoryProducts });
+};
 
 module.exports = {
     getCategoryProducts,

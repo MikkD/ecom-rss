@@ -1,0 +1,1808 @@
+[
+  {
+    "categoryType": "accessories",
+    "id": 1,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821449/3921eae6edf2dbce598a2ecee74ac5cb.jpg",
+    "name": "accessories1",
+    "price": 36
+  },
+  {
+    "categoryType": "accessories",
+    "id": 2,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821450/a095157c9151fec5bb06a817f027fb17.jpg",
+    "isNew": "true",
+    "name": "accessories2",
+    "price": 46
+  },
+  {
+    "categoryType": "accessories",
+    "id": 3,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821451/6ccdb2fc8d701e309153f7c0222d53ef.jpg",
+    "name": "accessories3",
+    "price": 29
+  },
+  {
+    "categoryType": "accessories",
+    "id": 4,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821452/3c1fbb1acd2b1a81ed5130a171c29033.jpg",
+    "isNew": "true",
+    "name": "accessories4",
+    "price": 10
+  },
+  {
+    "categoryType": "accessories",
+    "id": 5,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821452/34f5d563b895799b73027cdd3dd846e2.jpg",
+    "name": "accessories5",
+    "price": 33
+  },
+  {
+    "categoryType": "accessories",
+    "id": 6,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821453/2b9226de273269990f667a5edcfea378.jpg",
+    "isNew": "true",
+    "name": "accessories6",
+    "price": 8
+  },
+  {
+    "categoryType": "accessories",
+    "id": 7,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821454/dee4044ed1b90b6e5fe2052a47eeda6d.jpg",
+    "name": "accessories7",
+    "price": 38
+  },
+  {
+    "categoryType": "accessories",
+    "id": 8,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821454/c8a6b4db50cadec7d57ca50916bbfa36.jpg",
+    "isNew": "true",
+    "name": "accessories8",
+    "price": 41
+  },
+  {
+    "categoryType": "accessories",
+    "id": 9,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821455/d85896c929663f53badbbf1305dcc537.jpg",
+    "name": "accessories9",
+    "price": 11
+  },
+  {
+    "categoryType": "accessories",
+    "id": 10,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821456/ba8588910101eae17eeb16c575f28271.jpg",
+    "isNew": "true",
+    "name": "accessories10",
+    "price": 47
+  },
+  {
+    "categoryType": "accessories",
+    "id": 11,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821456/3b2ec5362a7d97038be6437b527a6894.jpg",
+    "name": "accessories11",
+    "price": 24
+  },
+  {
+    "categoryType": "accessories",
+    "id": 12,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821457/a05a3a150e56ed0851d761290656f228.jpg",
+    "isNew": "true",
+    "name": "accessories12",
+    "price": 21
+  },
+  {
+    "categoryType": "accessories",
+    "id": 13,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821458/89c1dba9098586f6853b45b4aee802e1.jpg",
+    "name": "accessories13",
+    "price": 35
+  },
+  {
+    "categoryType": "accessories",
+    "id": 14,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821459/969013e1475fd23c55c0b3db530574fb.jpg",
+    "isNew": "true",
+    "name": "accessories14",
+    "price": 29
+  },
+  {
+    "categoryType": "accessories",
+    "id": 15,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821459/eeb5712d5991a7279eb08f3ffad08c98.jpg",
+    "name": "accessories15",
+    "price": 44
+  },
+  {
+    "categoryType": "accessories",
+    "id": 16,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821460/aca7f5412964e20d8b9ac7a79fbce304.jpg",
+    "isNew": "true",
+    "name": "accessories16",
+    "price": 44
+  },
+  {
+    "categoryType": "accessories",
+    "id": 17,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821461/408cc8dd8936234ed0fab894463ce247.jpg",
+    "name": "accessories17",
+    "price": 36
+  },
+  {
+    "categoryType": "accessories",
+    "id": 18,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821461/6d4549007f0f81ce36e3e441f97bab63.jpg",
+    "isNew": "true",
+    "name": "accessories18",
+    "price": 15
+  },
+  {
+    "categoryType": "accessories",
+    "id": 19,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821462/079246eefebb9a1460c509dc09b5ee5c.jpg",
+    "name": "accessories19",
+    "price": 14
+  },
+  {
+    "categoryType": "accessories",
+    "id": 20,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821463/e2656b808e7b5f9a9e6ec23cad80d5b1.jpg",
+    "isNew": "true",
+    "name": "accessories20",
+    "price": 21
+  },
+  {
+    "categoryType": "accessories",
+    "id": 21,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821464/6533025d237d2dad4ddfe29201af210a.jpg",
+    "name": "accessories21",
+    "price": 31
+  },
+  {
+    "categoryType": "accessories",
+    "id": 22,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821464/55bd0944917f157c9ee0c0be91f472f6.jpg",
+    "isNew": "true",
+    "name": "accessories22",
+    "price": 17
+  },
+  {
+    "categoryType": "accessories",
+    "id": 23,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821465/e942f319036967d6954490cf52b58d6a.jpg",
+    "name": "accessories23",
+    "price": 14
+  },
+  {
+    "categoryType": "accessories",
+    "id": 24,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821466/649b9070fc716873beb8f6aa96d5c1b9.jpg",
+    "isNew": "true",
+    "name": "accessories24",
+    "price": 31
+  },
+  {
+    "categoryType": "accessories",
+    "id": 25,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821467/850213d79b792dd4cfb6539c4dc9cabf.jpg",
+    "name": "accessories25",
+    "price": 37
+  },
+  {
+    "categoryType": "men",
+    "id": 26,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821467/86d8f919a019725a2f3f2920b557e214.jpg",
+    "name": "men1",
+    "price": 11,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 27,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821470/7a61bc0b61b4d770ffa78aeac3c2aef5.jpg",
+    "isNew": "true",
+    "name": "men2",
+    "price": 50,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 28,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821473/1db1f770da5f3880ca2cca42f26062fe.jpg",
+    "name": "men3",
+    "price": 35,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 29,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821474/13dff865bdeeb4f1513d8d86b1015d32.jpg",
+    "isNew": "true",
+    "name": "men4",
+    "price": 2,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 30,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821475/99227864d3d0a4a49f1ab3d99aa21873.jpg",
+    "name": "men5",
+    "price": 28,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 31,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821476/bad268c76bd62d833e3f6d9feffc7f0d.jpg",
+    "isNew": "true",
+    "name": "men6",
+    "price": 47,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 32,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821477/69e9901dba7eaa19f355ada0e636f663.jpg",
+    "name": "men7",
+    "price": 6,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 33,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821478/98ba4f399ac1acb4862071751ab4ab6c.jpg",
+    "isNew": "true",
+    "name": "men8",
+    "price": 34,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 34,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821478/e950475515e7524eaf63d9427ed328df.jpg",
+    "name": "men9",
+    "price": 48,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 35,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821479/d24187123571aa9b4c7c76614e46415b.jpg",
+    "isNew": "true",
+    "name": "men10",
+    "price": 11,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 36,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821480/16a04784308d08f489148897890d453f.jpg",
+    "name": "men11",
+    "price": 41,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 37,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821480/a6966e07835ae35a3f472bc36bd90368.jpg",
+    "isNew": "true",
+    "name": "men12",
+    "price": 36,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 38,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821481/9944728b8704e74935f0dfbcbeb69b71.jpg",
+    "name": "men13",
+    "price": 6,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 39,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821482/954a30b5bbaeb7a31170b68d10bade94.jpg",
+    "isNew": "true",
+    "name": "men14",
+    "price": 28,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 40,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821482/b3e2fad9cabb0ed83e07febc191fc0d0.jpg",
+    "name": "men15",
+    "price": 32,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 41,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821483/42e0d9cd1eb18ea28779dfe9e7342c1d.jpg",
+    "isNew": "true",
+    "name": "men16",
+    "price": 21,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 42,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821484/c60b2481721147ffbd69c6711aaa6714.jpg",
+    "name": "men17",
+    "price": 38,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 43,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821484/1b72e83496493d94b82c5f07180fca08.jpg",
+    "isNew": "true",
+    "name": "men18",
+    "price": 11,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 44,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821485/1b68fdcea278a844475cdc652388017f.jpg",
+    "name": "men19",
+    "price": 19,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 45,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821486/63a09d38940c4a110cb5a86af96e68ca.jpg",
+    "isNew": "true",
+    "name": "men20",
+    "price": 30,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 46,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821486/cf34a98eba9828b9136a220f5a5251b6.jpg",
+    "name": "men21",
+    "price": 46,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 47,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821487/e12b0c6e9a8c320efbe9d6b1b105f67d.jpg",
+    "isNew": "true",
+    "name": "men22",
+    "price": 33,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 48,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821489/1a5d4e78288e70854b69a2473b3962cd.jpg",
+    "name": "men23",
+    "price": 24,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 49,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821494/85ae9465f307988b0c84a5378de81da4.jpg",
+    "isNew": "true",
+    "name": "men24",
+    "price": 32,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 50,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821494/b09e29ea24023ae5c3aa830551e62248.jpg",
+    "name": "men25",
+    "price": 35,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 51,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821495/819ecd8573e868449d5214a8546528c1.jpg",
+    "isNew": "true",
+    "name": "men26",
+    "price": 25,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 52,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821496/f46a531e96a46ed38694cdae8d7b6ac7.jpg",
+    "name": "men27",
+    "price": 28,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 53,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821497/c79cebcb0864dd8d50ddc9c37aaffeaf.jpg",
+    "isNew": "true",
+    "name": "men28",
+    "price": 48,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 54,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821497/6ab4b3f4e133980369524f93861e3646.jpg",
+    "name": "men29",
+    "price": 23,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 55,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821498/9518a8d926cdc668aee4d1d3456f486b.jpg",
+    "isNew": "true",
+    "name": "men30",
+    "price": 17,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 56,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821498/58c16b472ee7cc07ef67b28e7dd41dbd.jpg",
+    "name": "men31",
+    "price": 18,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 57,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821499/ddb67a9598806ef278c2040fcbc23da1.jpg",
+    "isNew": "true",
+    "name": "men32",
+    "price": 9,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 58,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821500/fe286a4a0c2862366c7e1632472d33eb.jpg",
+    "name": "men33",
+    "price": 36,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 59,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821500/98162820ea023a27a73587020c946a55.jpg",
+    "isNew": "true",
+    "name": "men34",
+    "price": 17,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 60,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821501/c1136f1939f67daa98e54663382fed03.jpg",
+    "name": "men35",
+    "price": 30,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 61,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821502/8171f8bc150d8f0a9d107f826fbfcaf4.jpg",
+    "isNew": "true",
+    "name": "men36",
+    "price": 11,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 62,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821503/b9e78d74a96a47ab0b43b9d3bf0835da.jpg",
+    "name": "men37",
+    "price": 30,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 63,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821503/ccf9595dfb799db1b3f4d7373b006551.jpg",
+    "isNew": "true",
+    "name": "men38",
+    "price": 9,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 64,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821504/5418735b224085790d109c0895446a12.jpg",
+    "name": "men39",
+    "price": 9,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 65,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821506/e4d515e85daaeafbef0f4015888f56da.jpg",
+    "isNew": "true",
+    "name": "men40",
+    "price": 40,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 66,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821507/762c69b1758a99b5da32f7a103f21389.jpg",
+    "name": "men41",
+    "price": 13,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 67,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821507/6de766ed186b45ad7d623431442b012b.jpg",
+    "isNew": "true",
+    "name": "men42",
+    "price": 18,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 68,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821508/6bf4a0dab8a4d6b331bedf053fb96197.jpg",
+    "name": "men43",
+    "price": 6,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 69,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821508/aaeb0f3796db225774ef03b01d76ac86.jpg",
+    "isNew": "true",
+    "name": "men44",
+    "price": 41,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 70,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821509/176c3014fae4d1243a0e7edc622083f3.jpg",
+    "name": "men45",
+    "price": 8,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 71,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821510/851f99fa55be090e22ae61957f6790cd.jpg",
+    "isNew": "true",
+    "name": "men46",
+    "price": 45,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 72,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821511/3052fca112bb8c8139477b036a58c2c6.jpg",
+    "name": "men47",
+    "price": 41,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 73,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821512/68cc3d19f1fb92dd4be7086e82fbf945.jpg",
+    "isNew": "true",
+    "name": "men48",
+    "price": 41,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 74,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821512/458926daca5874a44199600ca735cbd0.jpg",
+    "name": "men49",
+    "price": 42,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 75,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821513/06b0d2f382f00d114695635465719fd0.jpg",
+    "isNew": "true",
+    "name": "men50",
+    "price": 31,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 76,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821513/7ab68a8337a88562fb9f77e680f8cd5c.jpg",
+    "name": "men51",
+    "price": 3,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 77,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821514/e97d1d1bb266b5a5d9e3e1532650864a.jpg",
+    "isNew": "true",
+    "name": "men52",
+    "price": 23,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 78,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821515/716ea9a08c0f86f80b989b72cd60da15.jpg",
+    "name": "men53",
+    "price": 36,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 79,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821516/86ec8f3ff427265b6d65202350a830fc.jpg",
+    "isNew": "true",
+    "name": "men54",
+    "price": 27,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 80,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821516/e069790b5c3f74bdf633b9529b50c03a.jpg",
+    "name": "men55",
+    "price": 29,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 81,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821517/b3dcb667a1fee19120c85be32effb43f.jpg",
+    "isNew": "true",
+    "name": "men56",
+    "price": 2,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 82,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821517/dbdee94929363721e5c757f457b31124.jpg",
+    "name": "men57",
+    "price": 4,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 83,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821518/e42077e22d4313fa0b4d5fe7da3df919.jpg",
+    "isNew": "true",
+    "name": "men58",
+    "price": 2,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 84,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821519/fab338bb36a3bd158003efb766e7c91b.jpg",
+    "name": "men59",
+    "price": 9,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 85,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821520/a82e5f0209c6ec7f9e3deffd85c8d138.jpg",
+    "isNew": "true",
+    "name": "men60",
+    "price": 8,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 86,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821521/11c20b41f7b0694269515309a8e473f0.jpg",
+    "name": "men61",
+    "price": 16,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 87,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821522/ac41d04f2606b64e4f1994c8a94fc388.jpg",
+    "isNew": "true",
+    "name": "men62",
+    "price": 42,
+    "type": "shirt"
+  },
+  {
+    "categoryType": "men",
+    "id": 88,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821522/76c5bb3a9297385a877c20e97332bd35.jpg",
+    "name": "men63",
+    "price": 12,
+    "type": "jeans"
+  },
+  {
+    "categoryType": "men",
+    "id": 89,
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821523/56c2f69507366e53d3e8c1563b132811.jpg",
+    "isNew": "true",
+    "name": "men64",
+    "price": 18,
+    "type": "shirt"
+  },
+  {
+    "id": 90,
+    "price": 22,
+    "name": "new1",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821524/d4d1d1166b173f645c8cee89a4735151.jpg",
+    "type": "shoes",
+    "categoryType": "new"
+  },
+  {
+    "id": 91,
+    "price": 37,
+    "name": "new2",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821524/2d8a5fdcabb95ca9311a8a6d596af7c9.jpg",
+    "type": "jeans",
+    "categoryType": "new"
+  },
+  {
+    "id": 92,
+    "price": 10,
+    "name": "new3",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821525/cda140229f4b2eafff91824215958e72.jpg",
+    "type": "shoes",
+    "categoryType": "new"
+  },
+  {
+    "id": 93,
+    "price": 10,
+    "name": "new4",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821526/15553d40b6a2a4bb17286f25aefe21f9.jpg",
+    "type": "jeans",
+    "categoryType": "new"
+  },
+  {
+    "id": 94,
+    "price": 4,
+    "name": "new5",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821527/f54bfcbe1320ae4fc889ba1dee8c7ced.jpg",
+    "type": "shoes",
+    "categoryType": "new"
+  },
+  {
+    "id": 95,
+    "price": 38,
+    "name": "new6",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821528/8d40e7c4dedbb03b8fd966cfcde1685d.jpg",
+    "type": "jeans",
+    "categoryType": "new"
+  },
+  {
+    "id": 96,
+    "price": 24,
+    "name": "new7",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821529/35c4bc2944a227752cca6edc65e480db.jpg",
+    "type": "shoes",
+    "categoryType": "new"
+  },
+  {
+    "id": 97,
+    "price": 28,
+    "name": "new8",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821529/bcd5aabbbb452269930e5e6e55132530.jpg",
+    "type": "jeans",
+    "categoryType": "new"
+  },
+  {
+    "id": 98,
+    "price": 41,
+    "name": "new9",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821602/4e22fdf53e84873438da4dfcc6b2f764.jpg",
+    "type": "shoes",
+    "categoryType": "new"
+  },
+  {
+    "id": 99,
+    "price": 13,
+    "name": "new10",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821603/cb66e73a3be072b340273181cf9c1d79.jpg",
+    "type": "jeans",
+    "categoryType": "new"
+  },
+  {
+    "id": 100,
+    "price": 8,
+    "name": "new11",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821604/6e6fe2213e3e55df2d355486f34b0bc3.jpg",
+    "type": "shoes",
+    "categoryType": "new"
+  },
+  {
+    "id": 101,
+    "price": 25,
+    "name": "new12",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821604/73396eecbc9cf30e185b05434fe0d936.jpg",
+    "type": "jeans",
+    "categoryType": "new"
+  },
+  {
+    "id": 102,
+    "price": 8,
+    "name": "new13",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821605/dfba3ac11d8ea75125132c1688b3440f.jpg",
+    "type": "shoes",
+    "categoryType": "new"
+  },
+  {
+    "id": 103,
+    "price": 25,
+    "name": "new14",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821606/d896cfc4fc47ed1120a41c6be6e6dcda.jpg",
+    "type": "jeans",
+    "categoryType": "new"
+  },
+  {
+    "id": 104,
+    "price": 50,
+    "name": "new15",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821606/9f50ebf91f3547117c59029a0d8934ca.jpg",
+    "type": "shoes",
+    "categoryType": "new"
+  },
+  {
+    "id": 105,
+    "price": 43,
+    "name": "new16",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821607/9098376b33151e1a0ee27a6a626a85aa.jpg",
+    "type": "jeans",
+    "categoryType": "new"
+  },
+  {
+    "id": 106,
+    "price": 21,
+    "name": "new17",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821607/da7742fe64fd96ec767ca1da6550d473.jpg",
+    "type": "shoes",
+    "categoryType": "new"
+  },
+  {
+    "id": 107,
+    "price": 46,
+    "name": "new18",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821608/e6ea1341f6eea53515021e3e8cc8cf4b.jpg",
+    "type": "jeans",
+    "categoryType": "new"
+  },
+  {
+    "id": 108,
+    "price": 13,
+    "name": "new19",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821609/f2a1974092e76024deeb4181891b486f.jpg",
+    "type": "shoes",
+    "categoryType": "new"
+  },
+  {
+    "id": 109,
+    "price": 44,
+    "name": "new20",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821610/99c412b951ecd0d0d7e79a8453949ee7.jpg",
+    "type": "jeans",
+    "categoryType": "new"
+  },
+  {
+    "id": 110,
+    "price": 43,
+    "name": "new21",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821610/a131c2fe7234bcd9726672a95f3e116f.jpg",
+    "type": "shoes",
+    "categoryType": "new"
+  },
+  {
+    "id": 111,
+    "price": 31,
+    "name": "new22",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821611/53df11cd2ff8dc87868b61bbb977bd4c.jpg",
+    "type": "jeans",
+    "categoryType": "new"
+  },
+  {
+    "id": 112,
+    "price": 7,
+    "name": "new23",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821611/1231d4faeae93a10afe79e45273fe20f.jpg",
+    "type": "shoes",
+    "categoryType": "new"
+  },
+  {
+    "id": 113,
+    "price": 6,
+    "name": "new24",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821612/a42c4aee890f30adc70ada026ad0cbbb.jpg",
+    "type": "jeans",
+    "categoryType": "new"
+  },
+  {
+    "id": 114,
+    "price": 9,
+    "name": "new25",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821613/cc64de6421d05869d5aafb1b995bf228.jpg",
+    "type": "shoes",
+    "categoryType": "new"
+  },
+  {
+    "id": 115,
+    "price": 35,
+    "name": "sale1",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821613/ce4bce6f495b406b2b3f09fadc1c9467.jpg",
+    "type": "shirt",
+    "categoryType": "sale"
+  },
+  {
+    "id": 116,
+    "price": 12,
+    "name": "sale2",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821614/7e1243beef3962433bc5f1553bfb7bca.jpg",
+    "isNew": "true",
+    "type": "t-shirt",
+    "categoryType": "sale"
+  },
+  {
+    "id": 117,
+    "price": 13,
+    "name": "sale3",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821615/4337097c52f36cee496bb9a883c0524a.jpg",
+    "type": "shirt",
+    "categoryType": "sale"
+  },
+  {
+    "id": 118,
+    "price": 47,
+    "name": "sale4",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821616/253dee905e6096dec6d5bb32f50f03ba.jpg",
+    "isNew": "true",
+    "type": "t-shirt",
+    "categoryType": "sale"
+  },
+  {
+    "id": 119,
+    "price": 8,
+    "name": "sale5",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821617/cb7efb253e54f4b8ec0e612a13c1b549.jpg",
+    "type": "shirt",
+    "categoryType": "sale"
+  },
+  {
+    "id": 120,
+    "price": 40,
+    "name": "sale6",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821617/f18258310fd744fa33749c40f39111d0.jpg",
+    "isNew": "true",
+    "type": "t-shirt",
+    "categoryType": "sale"
+  },
+  {
+    "id": 121,
+    "price": 6,
+    "name": "sale7",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821618/80e0d0239c9b6efcd1a22320744b6e63.jpg",
+    "type": "shirt",
+    "categoryType": "sale"
+  },
+  {
+    "id": 122,
+    "price": 31,
+    "name": "sale8",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821619/0edc1d67f6c8659f566abd13f1212e05.jpg",
+    "isNew": "true",
+    "type": "t-shirt",
+    "categoryType": "sale"
+  },
+  {
+    "id": 123,
+    "price": 38,
+    "name": "sale9",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821620/9a4f43716343e99b9ef9ab6726ff14d9.jpg",
+    "type": "shirt",
+    "categoryType": "sale"
+  },
+  {
+    "id": 124,
+    "price": 44,
+    "name": "sale10",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821621/386d19c8d3fc511f3bc30346c9ce31a8.jpg",
+    "isNew": "true",
+    "type": "t-shirt",
+    "categoryType": "sale"
+  },
+  {
+    "id": 125,
+    "price": 34,
+    "name": "sale11",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821621/da521c58c28c84b4b3d5f63b621d345d.jpg",
+    "type": "shirt",
+    "categoryType": "sale"
+  },
+  {
+    "id": 126,
+    "price": 3,
+    "name": "sale12",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821622/8a3845d30b2280370d9f673c6890eeab.jpg",
+    "isNew": "true",
+    "type": "t-shirt",
+    "categoryType": "sale"
+  },
+  {
+    "id": 127,
+    "price": 23,
+    "name": "sale13",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821623/323ae63ddf588b780eaf81577a291448.jpg",
+    "type": "shirt",
+    "categoryType": "sale"
+  },
+  {
+    "id": 128,
+    "price": 8,
+    "name": "sale14",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821624/931c973ab6d523643be3b3d078728537.jpg",
+    "isNew": "true",
+    "type": "t-shirt",
+    "categoryType": "sale"
+  },
+  {
+    "id": 129,
+    "price": 49,
+    "name": "sale15",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821625/222a3081f78933b52ac9859255a4d315.jpg",
+    "type": "shirt",
+    "categoryType": "sale"
+  },
+  {
+    "id": 130,
+    "price": 27,
+    "name": "sale16",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821625/f1cf88f67795e43229e6a667e7dacbfd.jpg",
+    "isNew": "true",
+    "type": "t-shirt",
+    "categoryType": "sale"
+  },
+  {
+    "id": 131,
+    "price": 9,
+    "name": "sale17",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821626/a0628eefdfce6822e5b21e813714fa9e.jpg",
+    "type": "shirt",
+    "categoryType": "sale"
+  },
+  {
+    "id": 132,
+    "price": 36,
+    "name": "sale18",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821627/a45714b4f16941d2a41c5ad9994f2b87.jpg",
+    "isNew": "true",
+    "type": "t-shirt",
+    "categoryType": "sale"
+  },
+  {
+    "id": 133,
+    "price": 1,
+    "name": "sale19",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821628/5b2f5ea89e15eb4178ce40016cb7bd4e.jpg",
+    "type": "shirt",
+    "categoryType": "sale"
+  },
+  {
+    "id": 134,
+    "price": 28,
+    "name": "sale20",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821628/db7c69831dc0672a2469fc1567740533.jpg",
+    "isNew": "true",
+    "type": "t-shirt",
+    "categoryType": "sale"
+  },
+  {
+    "id": 135,
+    "price": 6,
+    "name": "trendy1",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821629/f7c464b2b9ffef03132c44cd9a82daad.jpg",
+    "type": "pants",
+    "categoryType": "trendy"
+  },
+  {
+    "id": 136,
+    "price": 25,
+    "name": "trendy2",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821630/b032ecf408e12e0f9d463d6040af34b2.jpg",
+    "isNew": "true",
+    "type": "jacket",
+    "categoryType": "trendy"
+  },
+  {
+    "id": 137,
+    "price": 4,
+    "name": "trendy3",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821630/aa82a94a911b256d7096ac9850b4ad05.jpg",
+    "type": "pants",
+    "categoryType": "trendy"
+  },
+  {
+    "id": 138,
+    "price": 12,
+    "name": "trendy4",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821631/09b57f6b48177f732f8a608715422454.jpg",
+    "isNew": "true",
+    "type": "jacket",
+    "categoryType": "trendy"
+  },
+  {
+    "id": 139,
+    "price": 31,
+    "name": "trendy5",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821632/273fb9d860eca502432dfd0b5faa4435.jpg",
+    "type": "pants",
+    "categoryType": "trendy"
+  },
+  {
+    "id": 140,
+    "price": 26,
+    "name": "trendy6",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821633/e875ffbb9729c03c515a4961e0d2ac2c.jpg",
+    "isNew": "true",
+    "type": "jacket",
+    "categoryType": "trendy"
+  },
+  {
+    "id": 141,
+    "price": 6,
+    "name": "trendy7",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821634/4cd275dd9b6e575bd200f78f9956c756.jpg",
+    "type": "pants",
+    "categoryType": "trendy"
+  },
+  {
+    "id": 142,
+    "price": 11,
+    "name": "trendy8",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821634/cdf4af60880d24a6ea8c8463d56fa9e5.jpg",
+    "isNew": "true",
+    "type": "jacket",
+    "categoryType": "trendy"
+  },
+  {
+    "id": 143,
+    "price": 44,
+    "name": "trendy9",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821635/80c55d101a2d06bbc16f102a7b5d3338.jpg",
+    "type": "pants",
+    "categoryType": "trendy"
+  },
+  {
+    "id": 144,
+    "price": 9,
+    "name": "trendy10",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821636/66ac5c3d05e00e5b80f13e7c4e8e85aa.jpg",
+    "isNew": "true",
+    "type": "jacket",
+    "categoryType": "trendy"
+  },
+  {
+    "id": 145,
+    "price": 46,
+    "name": "trendy11",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821636/ce183fad6d660bdddb445e676073215b.jpg",
+    "type": "pants",
+    "categoryType": "trendy"
+  },
+  {
+    "id": 146,
+    "price": 25,
+    "name": "trendy12",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821637/b5286477e87e5165cdb1fb2fa4a09e05.jpg",
+    "isNew": "true",
+    "type": "jacket",
+    "categoryType": "trendy"
+  },
+  {
+    "id": 147,
+    "price": 2,
+    "name": "trendy13",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821638/60876a50ae0b6ea8cd2a6338fd94d3aa.jpg",
+    "type": "pants",
+    "categoryType": "trendy"
+  },
+  {
+    "id": 148,
+    "price": 25,
+    "name": "trendy14",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821639/8cbb0af7f50aa82bd5637401ebe25676.jpg",
+    "isNew": "true",
+    "type": "jacket",
+    "categoryType": "trendy"
+  },
+  {
+    "id": 149,
+    "price": 20,
+    "name": "trendy15",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821639/f119c68dfd6464605a66ded971f4ffe7.jpg",
+    "type": "pants",
+    "categoryType": "trendy"
+  },
+  {
+    "id": 150,
+    "price": 49,
+    "name": "trendy16",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821640/a14e623f857d119a3daaebeef6bec043.jpg",
+    "isNew": "true",
+    "type": "jacket",
+    "categoryType": "trendy"
+  },
+  {
+    "id": 151,
+    "price": 46,
+    "name": "trendy17",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821641/a520acc1be991e0465acf3694c928556.jpg",
+    "type": "pants",
+    "categoryType": "trendy"
+  },
+  {
+    "id": 152,
+    "price": 38,
+    "name": "trendy18",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821641/1ce6f5faf8935d0a3289703ad906bba7.jpg",
+    "isNew": "true",
+    "type": "jacket",
+    "categoryType": "trendy"
+  },
+  {
+    "id": 153,
+    "price": 15,
+    "name": "trendy19",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821642/2f71f47e98f910eb94b5baec6deb790e.jpg",
+    "type": "pants",
+    "categoryType": "trendy"
+  },
+  {
+    "id": 154,
+    "price": 43,
+    "name": "women1",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821643/9ed7818b70c7cb17cd9c9602dc27e3ba.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 155,
+    "price": 4,
+    "name": "women2",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821644/b1bb816e7e402660d7e391cc2ea2dca0.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 156,
+    "price": 44,
+    "name": "women3",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821644/5320cd3efb776e6dd822e37cfcbf7c11.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 157,
+    "price": 16,
+    "name": "women4",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821645/f0c16f15706748ab7373a08b0dbf4cf3.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 158,
+    "price": 45,
+    "name": "women5",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821646/d09ccf6a3b01dda7cb94e671821081bf.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 159,
+    "price": 6,
+    "name": "women6",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821647/fdede7f939b59bee65a8196bfcb2635c.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 160,
+    "price": 41,
+    "name": "women7",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821648/761705c7986963edbeb5d88eb3faf382.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 161,
+    "price": 11,
+    "name": "women8",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821649/04b26a25d7bf3bec12fc6f6ea74c7cb5.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 162,
+    "price": 8,
+    "name": "women9",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821650/11cbe3ea404f7eb79245b3ca303981ed.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 163,
+    "price": 28,
+    "name": "women10",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821650/5c22f0264bb32beed5c6814b24f13e1f.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 164,
+    "price": 13,
+    "name": "women11",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821651/c6e5d12c00c793f705e0ab08b99f4e6f.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 165,
+    "price": 18,
+    "name": "women12",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821652/a1eb006246277eae65479af024820571.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 166,
+    "price": 21,
+    "name": "women13",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821652/7bc5018978619d31106822d21a0427d1.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 167,
+    "price": 38,
+    "name": "women14",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821653/25b3b00a0f4a65b4f9e1b0c92c87c21f.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 168,
+    "price": 35,
+    "name": "women15",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821654/bfdfb549c3d7c2c140556e019600bbaf.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 169,
+    "price": 11,
+    "name": "women16",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821655/0ac1fbd6abec95fd7b2c7695659c711a.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 170,
+    "price": 43,
+    "name": "women17",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821655/e75779840f9a3fe38eebe98cb1ee834e.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 171,
+    "price": 1,
+    "name": "women18",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821656/ddc3d64560d36dbf4993520659f57960.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 172,
+    "price": 39,
+    "name": "women19",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821657/6743cad601d720aa090abce01fe58eb8.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 173,
+    "price": 49,
+    "name": "women20",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821657/1c44849ec8aec85f70a375e8e8e01805.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 174,
+    "price": 23,
+    "name": "women21",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821659/0e2af0feb9eeecbd9892d2071894af74.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 175,
+    "price": 48,
+    "name": "women22",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821660/f36ad56f73dde673073f619837f0cd26.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 176,
+    "price": 44,
+    "name": "women23",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821661/c8b197c471316cc5886151c8611f952b.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 177,
+    "price": 40,
+    "name": "women24",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821662/c546192ee890bfb6eb1e1c20684ae7eb.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 178,
+    "price": 50,
+    "name": "women25",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821663/43d3ed78311ddc92d106a8e1b5512780.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 179,
+    "price": 25,
+    "name": "women26",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821663/9a37e20c068d115f4ca74896c32c5514.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 180,
+    "price": 14,
+    "name": "women27",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821664/0e042a77e690b949f9a92c9ab4e1e315.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 181,
+    "price": 7,
+    "name": "women28",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821665/724dd23f7262ff034da4529023c6033b.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 182,
+    "price": 5,
+    "name": "women29",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821666/821f7ad6714ee28a071efd2527855090.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 183,
+    "price": 49,
+    "name": "women30",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821667/70f114dedb533815c97c955c4e1d7e3b.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 184,
+    "price": 28,
+    "name": "women31",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821667/6a005545183596749fd51e0b1736d062.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 185,
+    "price": 36,
+    "name": "women32",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821668/9f7d1d428be72b7dc6d4ad5491c3ad1b.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 186,
+    "price": 50,
+    "name": "women33",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821669/af3f2746597ad16280c8d346dc875858.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 187,
+    "price": 12,
+    "name": "women34",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821670/12e187d0c6a49078c274a2d6ab6d8a9d.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 188,
+    "price": 13,
+    "name": "women35",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821671/9a57749e953b4d8f67b94697a2c97c7d.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 189,
+    "price": 31,
+    "name": "women36",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821672/ec60b2674606b493865a13e50a12b04e.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 190,
+    "price": 48,
+    "name": "women37",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821672/b3b92efe6cd792e6dfda02fdfcb0f367.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 191,
+    "price": 39,
+    "name": "women38",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821673/62861c8c0d10205c5ff9d403d70ba96f.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 192,
+    "price": 35,
+    "name": "women39",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821674/1fdc9eb64b1c6cde9f1356fc8f87a536.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 193,
+    "price": 32,
+    "name": "women40",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821674/fba76a72b92e8f2f063cd5ef65ed333d.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 194,
+    "price": 49,
+    "name": "women41",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821675/294271edf7330004f2a9ca63e180cc5d.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 195,
+    "price": 31,
+    "name": "women42",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821676/1d9cc7f663a967cc31e033778b4a49e2.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 196,
+    "price": 28,
+    "name": "women43",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821677/578a7af8e920f900eb1dfdbfd0c31d9b.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 197,
+    "price": 6,
+    "name": "women44",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821678/0106ec9f59f9e116954acec5378458fc.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 198,
+    "price": 45,
+    "name": "women45",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821679/98ef18abf6f9b37925dbd66c9e444116.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 199,
+    "price": 41,
+    "name": "women46",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821680/5fec2c563ee8387657051f5088bdaf9a.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 200,
+    "price": 31,
+    "name": "women47",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821680/a791e38523abea4749a11e9f28e7325e.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 201,
+    "price": 28,
+    "name": "women48",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821681/4a18d15c4cce421883d36961a0a5ce5c.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 202,
+    "price": 23,
+    "name": "women49",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821682/5c21658d4764fe72d27a0c7880552ead.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 203,
+    "price": 12,
+    "name": "women50",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821682/a5501f9800b6014e1f2b6792d44f468f.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 204,
+    "price": 21,
+    "name": "women51",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821683/0434751efc7b55ef5ed5f4ed4912165f.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 205,
+    "price": 46,
+    "name": "women52",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821684/19a87b886adb7815be4286ba227a06a9.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 206,
+    "price": 33,
+    "name": "women53",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821684/ccb6729d27fde2bd4273e2f194e03971.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 207,
+    "price": 33,
+    "name": "women54",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821685/701870f88beb9a3ef3987ef9969ae6c9.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 208,
+    "price": 26,
+    "name": "women55",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821686/a630b2d369951b437a2151eeaee830ae.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 209,
+    "price": 7,
+    "name": "women56",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821686/a129f320970a414de69b7ffbe08b90b1.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 210,
+    "price": 28,
+    "name": "women57",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821687/b4c9211a56b8fd8e43316b5507c17a9d.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 211,
+    "price": 20,
+    "name": "women58",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821688/39416a3bb3d3c585169a511711a17494.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 212,
+    "price": 16,
+    "name": "women59",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821688/48418dff2931b2844ed9af82c20677ea.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 213,
+    "price": 12,
+    "name": "women60",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821689/83272263b8de29ca1d095c69bd7684eb.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 214,
+    "price": 13,
+    "name": "women61",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821690/9d6d1a71e87ad9f752fac9e5f7bccf2f.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 215,
+    "price": 5,
+    "name": "women62",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821691/af3ca011d404bb74cf7088a898eb2576.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  },
+  {
+    "id": 216,
+    "price": 31,
+    "name": "women63",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821691/eab565273eb061f9dbdefd326fcaf96e.jpg",
+    "type": "pants",
+    "categoryType": "women"
+  },
+  {
+    "id": 217,
+    "price": 41,
+    "name": "women64",
+    "imgUrl": "https://res.cloudinary.com/dkhixfxkp/image/upload/v1692821692/11f926c1b2dc5306088dda396f86ad90.jpg",
+    "isNew": "true",
+    "type": "shoes",
+    "categoryType": "women"
+  }
+]

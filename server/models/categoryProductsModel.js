@@ -2,9 +2,25 @@ const mongoose = require('mongoose');
 
 const categoryProductsSchema = mongoose.Schema(
     {
-        text: {
+        categoryType: {
             type: String,
-            required: [true, 'Please add a text value'],
+            required: true,
+        },
+        id: {
+            type: Number,
+            required: true,
+        },
+        imgUrl: {
+            type: String,
+            required: true,
+        },
+        name: {
+            type: String,
+            required: true,
+        },
+        price: {
+            type: Number,
+            required: true,
         },
     },
     {
@@ -12,4 +28,5 @@ const categoryProductsSchema = mongoose.Schema(
     }
 );
 
-module.exports = mongoose.model('categoryProducts', categoryProductsSchema);
+module.exports = mongoose.model('Products', categoryProductsSchema);
+module.exports.Products = mongoose.model('Products');
