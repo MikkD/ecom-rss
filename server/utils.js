@@ -3,9 +3,9 @@ const fs = require('fs');
 
 // Configure Cloudinary
 cloudinary.config({
-    cloud_name: 'dkhixfxkp',
-    api_key: '238249617812146',
-    api_secret: 'hZfb3h5DpaJri93Vk4YHA5GR1K4',
+    cloud_name: process.env.CLOUDINARY_NAME,
+    api_key: process.env.CLOUDINARY_API_KEY,
+    api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
 const getCloudinaryUrl = async (localImg) => {
