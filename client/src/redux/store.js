@@ -1,6 +1,7 @@
 import { configureStore, combineReducers } from '@reduxjs/toolkit';
 import { categoryProductsApi } from '../services/categoryProducts';
 import { productDetailsApi } from '../services/productDetails';
+import { slidersApi } from '../services/sliders';
 import { shoppingCartSlice } from './reducers/shoppingCartSlice';
 import {
     persistReducer,
@@ -12,10 +13,13 @@ import {
     REGISTER,
 } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
+import { categoriesApi } from '../services/categories';
 
 const rootReducer = combineReducers({
     [categoryProductsApi.reducerPath]: categoryProductsApi.reducer,
     [productDetailsApi.reducerPath]: productDetailsApi.reducer,
+    [slidersApi.reducerPath]: slidersApi.reducer,
+    [categoriesApi.reducerPath]: categoriesApi.reducer,
     cart: shoppingCartSlice.reducer,
 });
 
@@ -37,7 +41,12 @@ export const setupStore = (preloadedState) => {
                 serializableCheck: {
                     ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
                 },
-            }).concat(categoryProductsApi.middleware, productDetailsApi.middleware),
+            }).concat(
+                categoryProductsApi.middleware,
+                productDetailsApi.middleware,
+                slidersApi.middleware,
+                categoriesApi.middleware
+            ),
         preloadedState,
     });
 };

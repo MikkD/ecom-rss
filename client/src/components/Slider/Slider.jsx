@@ -3,18 +3,16 @@ import fallBackSliderAssets from '../../data/sliderAssets.json'; //TODO-REMOVE-A
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
 import './Slider.scss';
-import useFetchData from '../../hooks/useFetchData';
+import { useGetSlidersQuery } from '../../services/sliders';
 
 function Slider() {
-    const sliderAssetsUrl = 'http://localhost:5000/slider-assets'; //TODO-REPLACE-RTQ
     const [transitionStep, setTransitionStep] = useState(0);
-    const [assets, isError, isLoading] = useFetchData({
-        url: sliderAssetsUrl,
-    });
+    const { data, isLoading, isError } = useGetSlidersQuery();
+    const assets = data.sliderAssets || [];
 
-    const translateXStep = 100 / assets.length; //25%
+    const translateXStep = 100 / assets?.length; //25%
     const translateXStepLimit = 100 - translateXStep;
-    const shouldShowSliderContorls = assets.length > 1;
+    const shouldShowSliderContorls = assets?.length > 1;
 
     const handlePrevSlider = () =>
         setTransitionStep((prevStep) => {
@@ -37,12 +35,18 @@ function Slider() {
                 <div
                     style={{
                         transform: `translateX(-${transitionStep}%)`,
-                        width: `(${assets.length}vw)`,
+                        width: `(${assets?.length}vw)`,
                     }}
                     className='slider-imgs-wrapper'>
-                    {assets.map(({ id, imgUrl, name }) => (
-                        <img className='slider-img' key={id} src={imgUrl} alt={name} />
-                    ))}
+                    {assets?.length &&
+                        assets.map(({ id, imgUrl, name }) => (
+                            <img
+                                className='slider-img'
+                                key={id}
+                                src={imgUrl}
+                                alt={name}
+                            />
+                        ))}
                 </div>
             )}
             {shouldShowSliderContorls && (
