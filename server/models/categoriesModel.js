@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const sliderSchema = mongoose.Schema({
+const categoriesSchema = mongoose.Schema({
     id: {
         type: Number,
         required: true,
@@ -15,5 +15,5 @@ const sliderSchema = mongoose.Schema({
     },
 });
 
-module.exports = mongoose.model('Slider', sliderSchema);
-module.exports.Slider = mongoose.model('Slider');
+module.exports = mongoose.model('Categories', categoriesSchema);
+module.exports.Categories = mongoose.model('Categories');

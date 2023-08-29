@@ -20,10 +20,12 @@ function Category() {
 
     //*Data Fetching
     const {
-        data: categoryProducts = [],
+        data,
         error: isDataError,
         isLoading: isDataLoading,
     } = useGetProductsByCategoryQuery(categoryName);
+    const { categoryProducts } = data || [];
+    console.log('🚀 categoryProducts:', categoryProducts);
 
     //*PriceRangeFilter
     const [minPrice, maxPrice] = getProductsPriceRange(categoryProducts);
@@ -33,12 +35,12 @@ function Category() {
         priceFilterOptions[0].type
     );
     const [selectedProductTypes, setSelectedProductTypes] = useState([]);
-    const fetchedProductName = categoryProducts[0]?.name;
+    const fetchedProductName = categoryProducts && categoryProducts[0]?.name;
 
     useEffect(() => {
         const productTypes = getCategoryProductTypes(categoryProducts);
         setSelectedProductTypes(productTypes);
-    }, [fetchedProductName, categoryProducts.length]);
+    }, [fetchedProductName, categoryProducts]);
 
     useEffect(() => {
         setPriceRangeFilterValue(maxPrice);

@@ -9,7 +9,7 @@ export const priceFilterOptions = [
     },
 ];
 
-export const getCategoryProductTypes = (categoryProducts) => {
+export const getCategoryProductTypes = (categoryProducts = []) => {
     if (!categoryProducts[0]?.type) return [];
     return [...new Set(categoryProducts?.map(({ type }) => type))].map((type) => ({
         type,
@@ -17,7 +17,7 @@ export const getCategoryProductTypes = (categoryProducts) => {
     }));
 };
 
-export const getProductsPriceRange = (categoryProducts) => {
+export const getProductsPriceRange = (categoryProducts = []) => {
     const categoryProductsPrices = categoryProducts?.map(({ price }) => price);
     const maxPrice = Math.max(...categoryProductsPrices);
     const minPrice = Math.min(...categoryProductsPrices);

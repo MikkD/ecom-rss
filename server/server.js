@@ -2,12 +2,17 @@ const express = require('express');
 const dotenv = require('dotenv');
 dotenv.config();
 const cors = require('cors');
-const { getCategoryProducts } = require('./controllers/categoryProductsController');
-const { getSliderAssets } = require('./controllers/sliderAssetsController');
 
+// Controllers
+const { getCategoryProducts } = require('./controllers/categoryProductsController');
+const { getSlider } = require('./controllers/sliderController');
+const { getCategories } = require('./controllers/categoriesController');
+
+// Mongoose Connection
 const connectDB = require('./config/db');
 connectDB();
 
+// Data Seeder for uploading cloudinary assets
 require('./utils');
 
 const app = express();
@@ -15,9 +20,9 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.get('/slider-assets', (req, res) => {});
+app.get('/slider-assets', getSlider);
 
-app.get('/categories-assets', (req, res) => {});
+app.get('/categories-assets', getCategories);
 
 app.get('/category/:categoryType', getCategoryProducts);
 
