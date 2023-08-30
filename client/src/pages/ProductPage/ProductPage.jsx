@@ -63,7 +63,8 @@ const ProductInfo = ({
 
 function ProductPage() {
     const { id } = useParams();
-    const { data: product, error, isLoading } = useGetProductDetailsQuery(id);
+    const { data, error, isLoading } = useGetProductDetailsQuery(id);
+    const product = data?.singleProduct || {};
 
     return error ? (
         <h4>Error...</h4>

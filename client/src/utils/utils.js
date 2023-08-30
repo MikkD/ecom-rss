@@ -36,3 +36,10 @@ export const sortByPriceRange = (arr = [], sortVal) =>
 
 export const filterByType = (arrToFilter, activeFiltersArr) =>
     arrToFilter.filter((product) => activeFiltersArr.includes(product.type));
+
+export const featuredProductsDescription = `New Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,suscipit numquam at non dolore obcaecati fuga, tempore nesciunt, odit
+quidem ad repellendus voluptatem veritatis quaerat neque nam magni
+exercitationem itaque`;
+export const trendingProductsDescription = `Trending Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,suscipit numquam at non dolore obcaecati fuga, tempore nesciunt, odit
+quidem ad repellendus voluptatem veritatis quaerat neque nam magni
+exercitationem itaque`;

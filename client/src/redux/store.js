@@ -2,6 +2,7 @@ import { configureStore, combineReducers } from '@reduxjs/toolkit';
 import { categoryProductsApi } from '../services/categoryProducts';
 import { productDetailsApi } from '../services/productDetails';
 import { slidersApi } from '../services/sliders';
+import { categoriesApi } from '../services/categories';
 import { shoppingCartSlice } from './reducers/shoppingCartSlice';
 import {
     persistReducer,
@@ -13,7 +14,6 @@ import {
     REGISTER,
 } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
-import { categoriesApi } from '../services/categories';
 
 const rootReducer = combineReducers({
     [categoryProductsApi.reducerPath]: categoryProductsApi.reducer,
@@ -28,7 +28,12 @@ const persistConfig = {
     key: 'root',
     version: 1,
     storage,
-    blacklist: [categoryProductsApi.reducerPath, productDetailsApi.reducerPath],
+    blacklist: [
+        categoryProductsApi.reducerPath,
+        productDetailsApi.reducerPath,
+        slidersApi.reducerPath,
+        categoriesApi.reducerPath,
+    ],
 };
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 

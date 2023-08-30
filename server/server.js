@@ -3,14 +3,15 @@ const dotenv = require('dotenv');
 dotenv.config();
 const cors = require('cors');
 
+// Mongoose Connection
+const connectDB = require('./config/db');
+connectDB();
+
 // Controllers
 const { getCategoryProducts } = require('./controllers/categoryProductsController');
 const { getSlider } = require('./controllers/sliderController');
 const { getCategories } = require('./controllers/categoriesController');
-
-// Mongoose Connection
-const connectDB = require('./config/db');
-connectDB();
+const { getSingleProduct } = require('./controllers/singleProductController');
 
 // Data Seeder for uploading cloudinary assets
 require('./utils');
@@ -26,9 +27,7 @@ app.get('/categories-assets', getCategories);
 
 app.get('/category/:categoryType', getCategoryProducts);
 
-app.get('/product/:id', (req, res) => {
-    const id = req.params.id;
-});
+app.get('/product/:id', getSingleProduct);
 
 const port = process.env.PORT || 5000;
 app.listen(port, () => {

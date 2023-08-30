@@ -40,7 +40,7 @@ function Category() {
     useEffect(() => {
         const productTypes = getCategoryProductTypes(categoryProducts);
         setSelectedProductTypes(productTypes);
-    }, [fetchedProductName, categoryProducts]);
+    }, [fetchedProductName, categoryProducts?.length]);
 
     useEffect(() => {
         setPriceRangeFilterValue(maxPrice);
@@ -63,7 +63,7 @@ function Category() {
     }, [
         sortByFilterValue,
         selectedProductTypes,
-        categoryProducts,
+        categoryProducts?.length,
         priceRangeFilterValue,
     ]);
 

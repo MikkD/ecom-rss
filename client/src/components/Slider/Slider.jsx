@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
-import fallBackSliderAssets from '../../data/sliderAssets.json'; //TODO-REMOVE-AFTER-MIGRATION
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
-import './Slider.scss';
 import { useGetSlidersQuery } from '../../services/sliders';
+import './Slider.scss';
 
 function Slider() {
     const [transitionStep, setTransitionStep] = useState(0);
     const { data, isLoading, isError } = useGetSlidersQuery();
-    const assets = data.sliderAssets || [];
+    const assets = data?.sliderAssets || [];
 
     const translateXStep = 100 / assets?.length; //25%
     const translateXStepLimit = 100 - translateXStep;
