@@ -13,19 +13,24 @@ import Products from '../../shared/Products/Products';
 import PriceRangeFilter from '../../components/PriceRangeFilter/PriceRangeFilter';
 import SortByPriceFilter from '../../components/SortByPriceFilter/SortByPriceFilter';
 import ProductTypeFilter from '../../components/ProductTypeFilter/ProductTypeFilter';
+import Pagination from '../../components/Pagination/Pagination';
 import './Category.scss';
+
+// UTILS
 
 function Category() {
     const { name: categoryName } = useParams();
+    const [page, setPage] = useState(0);
+    const [pageSize, setPageSize] = useState(10);
 
     //*Data Fetching
     const {
         data,
         error: isDataError,
         isLoading: isDataLoading,
-    } = useGetProductsByCategoryQuery(categoryName);
+    } = useGetProductsByCategoryQuery({ categoryName, page, pageSize });
     const { categoryProducts } = data || [];
-    console.log('🚀 categoryProducts:', categoryProducts);
+    const totalNumOfProducts = data?.totalCount;
 
     //*PriceRangeFilter
     const [minPrice, maxPrice] = getProductsPriceRange(categoryProducts);
@@ -63,7 +68,7 @@ function Category() {
     }, [
         sortByFilterValue,
         selectedProductTypes,
-        categoryProducts?.length,
+        totalNumOfProducts,
         priceRangeFilterValue,
     ]);
 
@@ -101,6 +106,9 @@ function Category() {
                     />
                 </div>
                 <div className='category-product-list'>
+                    Total number of filtered products : {filteredProducts?.length}
+                    <br />
+                    Total counter of categoryProducts : {totalNumOfProducts}
                     {isDataError && <h3>Error...</h3>}
                     {isDataLoading ? (
                         <h3>Loading...</h3>
@@ -108,6 +116,13 @@ function Category() {
                         <Products assets={filteredProducts} />
                     )}
                 </div>
+                {totalNumOfProducts && (
+                    <Pagination
+                        totalNumOfProducts={totalNumOfProducts}
+                        page={page}
+                        setPage={setPage}
+                    />
+                )}
             </div>
         </div>
     );

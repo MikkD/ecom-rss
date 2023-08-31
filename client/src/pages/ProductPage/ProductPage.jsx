@@ -3,7 +3,7 @@ import './ProductPage.scss';
 import { useParams } from 'react-router-dom';
 import ProductGallery from '../../components/ProductGallery/ProductGallery';
 import { useGetProductDetailsQuery } from '../../services/productDetails';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { addToCart } from '../../redux/reducers/shoppingCartSlice';
 
 const ProductInfo = ({
@@ -11,8 +11,6 @@ const ProductInfo = ({
 }) => {
     const [qty, setQty] = useState(1);
     const dispatch = useDispatch();
-    const cartItems = useSelector((state) => state.cart.cartItems);
-    console.log('🚀 ~ file: ProductPage.jsx:15 ~ cartItems:', cartItems);
 
     const addToShoppingCart = () => {
         dispatch(

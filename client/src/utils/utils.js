@@ -21,7 +21,6 @@ export const getProductsPriceRange = (categoryProducts = []) => {
     const categoryProductsPrices = categoryProducts?.map(({ price }) => price);
     const maxPrice = Math.max(...categoryProductsPrices);
     const minPrice = Math.min(...categoryProductsPrices);
-
     return [minPrice, maxPrice];
 };
 
@@ -32,7 +31,7 @@ export const sortByPrice = (arr = [], sortVal) => {
 };
 
 export const sortByPriceRange = (arr = [], sortVal) =>
-    arr.filter(({ price }) => price < sortVal);
+    arr.filter(({ price }) => price <= sortVal);
 
 export const filterByType = (arrToFilter, activeFiltersArr) =>
     arrToFilter.filter((product) => activeFiltersArr.includes(product.type));
@@ -43,3 +42,9 @@ exercitationem itaque`;
 export const trendingProductsDescription = `Trending Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,suscipit numquam at non dolore obcaecati fuga, tempore nesciunt, odit
 quidem ad repellendus voluptatem veritatis quaerat neque nam magni
 exercitationem itaque`;
+
+// Pagination
+export const NUM_OF_PRODUCTS_PER_PAGE = 10;
+export const generatePagintationNumbers = (totalNumOfPages) => [
+    ...Array(totalNumOfPages).keys(),
+];

@@ -6,6 +6,7 @@ const Card = ({ id, price, name, imgUrl, isNew, type }) => {
     return (
         <Link to={`/product/${id}`}>
             <div className='card'>
+                id:{id}
                 <div className='card-img-wrapper'>
                     <img className='card-img' src={imgUrl} alt={name} />
                     {isNew && <div className='new-product-label'>New Product</div>}
