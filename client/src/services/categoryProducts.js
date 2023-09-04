@@ -7,9 +7,9 @@ export const categoryProductsApi = createApi({
     tagTypes: [],
     endpoints: (builder) => ({
         getProductsByCategory: builder.query({
-            query: ({ categoryName, page = 0, pageSize = 10 }) => {
+            query: ({ categoryName, page = 0, pageSize = 10, productType }) => {
                 // Append the page and pageSize query parameters to your API endpoint
-                return `${categoryName}?page=${page}&pageSize=${pageSize}`;
+                return `${categoryName}?page=${page}&pageSize=${pageSize}&type=${productType}`;
             },
         }),
     }),

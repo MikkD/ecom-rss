@@ -3,11 +3,8 @@ import { useParams } from 'react-router-dom';
 import { useGetProductsByCategoryQuery } from '../../services/categoryProducts';
 import {
     priceFilterOptions,
-    getCategoryProductTypes,
     getProductsPriceRange,
-    sortByPrice,
-    sortByPriceRange,
-    filterByType,
+    PLP_PAGE_SIZE,
 } from '../../utils/utils';
 import Products from '../../shared/Products/Products';
 import PriceRangeFilter from '../../components/PriceRangeFilter/PriceRangeFilter';
@@ -17,20 +14,25 @@ import Pagination from '../../components/Pagination/Pagination';
 import './Category.scss';
 
 // UTILS
-
 function Category() {
     const { name: categoryName } = useParams();
     const [page, setPage] = useState(0);
-    const [pageSize, setPageSize] = useState(10);
+    const [productTypes, setProductTypes] = useState([]);
 
     //*Data Fetching
     const {
         data,
         error: isDataError,
         isLoading: isDataLoading,
-    } = useGetProductsByCategoryQuery({ categoryName, page, pageSize });
+    } = useGetProductsByCategoryQuery({
+        categoryName,
+        page,
+        pageSize: PLP_PAGE_SIZE,
+        productType: productTypes,
+    });
     const { categoryProducts } = data || [];
     const totalNumOfProducts = data?.totalCount;
+    const productTypeOptions = data?.productTypeOptions;
 
     //*PriceRangeFilter
     const [minPrice, maxPrice] = getProductsPriceRange(categoryProducts);
@@ -39,48 +41,21 @@ function Category() {
     const [sortByFilterValue, setSortByFilterValue] = useState(
         priceFilterOptions[0].type
     );
-    const [selectedProductTypes, setSelectedProductTypes] = useState([]);
-    const fetchedProductName = categoryProducts && categoryProducts[0]?.name;
-
-    useEffect(() => {
-        const productTypes = getCategoryProductTypes(categoryProducts);
-        setSelectedProductTypes(productTypes);
-    }, [fetchedProductName, categoryProducts?.length]);
 
     useEffect(() => {
         setPriceRangeFilterValue(maxPrice);
     }, [maxPrice]);
-
-    const filteredProducts = React.useMemo(() => {
-        const activeProductTypeFilters = selectedProductTypes
-            .map(({ type, isChecked }) => (isChecked ? type : null))
-            .filter(Boolean);
-
-        const sortedByPriceRange = sortByPriceRange(
-            categoryProducts,
-            priceRangeFilterValue
-        );
-
-        const sortedByPrice = sortByPrice(sortedByPriceRange, sortByFilterValue);
-
-        if (!activeProductTypeFilters.length) return sortedByPrice;
-        return filterByType(sortedByPrice, activeProductTypeFilters);
-    }, [
-        sortByFilterValue,
-        selectedProductTypes,
-        totalNumOfProducts,
-        priceRangeFilterValue,
-    ]);
 
     return (
         <div className='product-category'>
             <div className='category-sidebar'>
                 <h4 className='sidebar-title'>{categoryName}</h4>
                 <div className='sidebar-filters'>
-                    {!!selectedProductTypes.length && (
+                    {!!productTypeOptions?.length && (
                         <ProductTypeFilter
-                            setSelectedProductTypes={setSelectedProductTypes}
-                            selectedProductTypes={selectedProductTypes}
+                            productTypeOptions={productTypeOptions}
+                            productTypes={productTypes}
+                            setProductTypes={setProductTypes}
                         />
                     )}
 
@@ -106,14 +81,15 @@ function Category() {
                     />
                 </div>
                 <div className='category-product-list'>
-                    Total number of filtered products : {filteredProducts?.length}
                     <br />
                     Total counter of categoryProducts : {totalNumOfProducts}
-                    {isDataError && <h3>Error...</h3>}
+                    {isDataError && (
+                        <h3>Error: {isDataError.message || 'Something went wrong.'}</h3>
+                    )}
                     {isDataLoading ? (
                         <h3>Loading...</h3>
                     ) : (
-                        <Products assets={filteredProducts} />
+                        <Products assets={categoryProducts} />
                     )}
                 </div>
                 {totalNumOfProducts && (

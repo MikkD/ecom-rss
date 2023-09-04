@@ -11,10 +11,7 @@ export const priceFilterOptions = [
 
 export const getCategoryProductTypes = (categoryProducts = []) => {
     if (!categoryProducts[0]?.type) return [];
-    return [...new Set(categoryProducts?.map(({ type }) => type))].map((type) => ({
-        type,
-        isChecked: false,
-    }));
+    return [...new Set(categoryProducts?.map(({ type }) => type))].map((type) => type);
 };
 
 export const getProductsPriceRange = (categoryProducts = []) => {
@@ -45,6 +42,7 @@ exercitationem itaque`;
 
 // Pagination
 export const NUM_OF_PRODUCTS_PER_PAGE = 10;
+export const PLP_PAGE_SIZE = 10;
 export const generatePagintationNumbers = (totalNumOfPages) => [
     ...Array(totalNumOfPages).keys(),
 ];
