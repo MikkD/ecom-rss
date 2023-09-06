@@ -21,7 +21,6 @@ const getCloudinaryUrl = async (localImg) => {
 const transformGallery = async (gallery) => {
     const res = [];
     for (const galleryObj of gallery) {
-        console.log('galleryObj', galleryObj);
         const cloudinaryImgUrl = await getCloudinaryUrl(galleryObj.imgUrl);
         res.push({ ...galleryObj, imgUrl: cloudinaryImgUrl });
     }
@@ -35,4 +34,53 @@ const transformData = async (data) => {
     }
 
     return result;
+};
+
+const findMaxMinPrice = async (schema, categoryType) => {
+    const result = await schema.aggregate([
+        {
+            $match: { categoryType: categoryType }, // Filter documents by categoryType
+        },
+        {
+            $group: {
+                _id: null, // Grouping by null means consider all documents as a single group
+                maxPrice: { $max: '$price' },
+                minPrice: { $min: '$price' },
+            },
+        },
+    ]);
+
+    if (result.length === 0) {
+        return { maxPrice: null, minPrice: null };
+    }
+
+    const { maxPrice, minPrice } = result[0];
+    return { maxPrice, minPrice };
+};
+
+const sortByPrice = (priceFilter) => (priceFilter === 'LTH' ? 1 : -1);
+
+const generateQueryParams = ({ categoryType, type, priceRangeLimit }) => {
+    const query = {};
+
+    if (categoryType) {
+        query.categoryType = categoryType;
+    }
+
+    if (type) {
+        const typesArray = type.split(',');
+        query.type = { $in: typesArray };
+    }
+
+    if (priceRangeLimit) {
+        query.price = { $lte: priceRangeLimit };
+    }
+
+    return query;
+};
+
+module.exports = {
+    findMaxMinPrice,
+    sortByPrice,
+    generateQueryParams,
 };

@@ -46,3 +46,5 @@ export const PLP_PAGE_SIZE = 10;
 export const generatePagintationNumbers = (totalNumOfPages) => [
     ...Array(totalNumOfPages).keys(),
 ];
+
+export const BASE_URL = 'http://localhost:8000/';

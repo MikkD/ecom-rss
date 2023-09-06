@@ -1,11 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useGetProductsByCategoryQuery } from '../../services/categoryProducts';
-import {
-    priceFilterOptions,
-    getProductsPriceRange,
-    PLP_PAGE_SIZE,
-} from '../../utils/utils';
+import { priceFilterOptions, PLP_PAGE_SIZE } from '../../utils/utils';
 import Products from '../../shared/Products/Products';
 import PriceRangeFilter from '../../components/PriceRangeFilter/PriceRangeFilter';
 import SortByPriceFilter from '../../components/SortByPriceFilter/SortByPriceFilter';
@@ -18,6 +14,10 @@ function Category() {
     const { name: categoryName } = useParams();
     const [page, setPage] = useState(0);
     const [productTypes, setProductTypes] = useState([]);
+    const [priceRangeFilterValue, setPriceRangeFilterValue] = useState(0);
+    const [sortByFilterValue, setSortByFilterValue] = useState(
+        priceFilterOptions[0].type
+    );
 
     //*Data Fetching
     const {
@@ -29,18 +29,17 @@ function Category() {
         page,
         pageSize: PLP_PAGE_SIZE,
         productType: productTypes,
+        priceRangeLimit: priceRangeFilterValue,
+        priceFilter: sortByFilterValue,
     });
-    const { categoryProducts } = data || [];
-    const totalNumOfProducts = data?.totalCount;
-    const productTypeOptions = data?.productTypeOptions;
 
-    //*PriceRangeFilter
-    const [minPrice, maxPrice] = getProductsPriceRange(categoryProducts);
-
-    const [priceRangeFilterValue, setPriceRangeFilterValue] = useState(0);
-    const [sortByFilterValue, setSortByFilterValue] = useState(
-        priceFilterOptions[0].type
-    );
+    const {
+        categoryProducts,
+        totalNumOfProducts,
+        productTypeOptions,
+        minPrice,
+        maxPrice,
+    } = data || {};
 
     useEffect(() => {
         setPriceRangeFilterValue(maxPrice);
