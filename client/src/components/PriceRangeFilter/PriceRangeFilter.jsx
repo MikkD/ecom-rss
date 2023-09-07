@@ -3,6 +3,7 @@ const PriceRangeFilter = ({
     setPriceRangeFilterValue,
     minPrice,
     maxPrice,
+    setPage,
 }) => {
     if (priceRangeFilterValue === -Infinity) return <h3>Loading...</h3>;
     return (
@@ -14,7 +15,10 @@ const PriceRangeFilter = ({
             <input
                 value={priceRangeFilterValue}
                 id='price-filter'
-                onChange={(e) => setPriceRangeFilterValue(e.target.value)}
+                onChange={(e) => {
+                    setPriceRangeFilterValue(e.target.value);
+                    setPage(0);
+                }}
                 min={minPrice}
                 max={maxPrice}
                 type='range'

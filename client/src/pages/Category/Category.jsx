@@ -33,16 +33,13 @@ function Category() {
         priceFilter: sortByFilterValue,
     });
 
-    const {
-        categoryProducts,
-        totalNumOfProducts,
-        productTypeOptions,
-        minPrice,
-        maxPrice,
-    } = data || {};
+    const { categoryProducts, totalCount, productTypeOptions, minPrice, maxPrice } =
+        data || {};
 
     useEffect(() => {
-        setPriceRangeFilterValue(maxPrice);
+        if (maxPrice) {
+            setPriceRangeFilterValue(maxPrice);
+        }
     }, [maxPrice]);
 
     return (
@@ -55,6 +52,7 @@ function Category() {
                             productTypeOptions={productTypeOptions}
                             productTypes={productTypes}
                             setProductTypes={setProductTypes}
+                            setPage={setPage}
                         />
                     )}
 
@@ -63,6 +61,7 @@ function Category() {
                         minPrice={minPrice}
                         priceRangeFilterValue={priceRangeFilterValue}
                         setPriceRangeFilterValue={setPriceRangeFilterValue}
+                        setPage={setPage}
                     />
                     <SortByPriceFilter
                         filterOptions={priceFilterOptions}
@@ -80,8 +79,6 @@ function Category() {
                     />
                 </div>
                 <div className='category-product-list'>
-                    <br />
-                    Total counter of categoryProducts : {totalNumOfProducts}
                     {isDataError && (
                         <h3>Error: {isDataError.message || 'Something went wrong.'}</h3>
                     )}
@@ -91,9 +88,9 @@ function Category() {
                         <Products assets={categoryProducts} />
                     )}
                 </div>
-                {totalNumOfProducts && (
+                {totalCount && (
                     <Pagination
-                        totalNumOfProducts={totalNumOfProducts}
+                        totalNumOfProducts={totalCount}
                         page={page}
                         setPage={setPage}
                     />

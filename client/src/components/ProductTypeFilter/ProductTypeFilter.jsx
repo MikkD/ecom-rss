@@ -1,6 +1,11 @@
 import CheckBox from '../../shared/Checkbox/Checkbox';
 
-const ProductTypeFilter = ({ productTypeOptions, productTypes, setProductTypes }) => {
+const ProductTypeFilter = ({
+    productTypeOptions,
+    productTypes,
+    setProductTypes,
+    setPage,
+}) => {
     const isTypeChecked = (type) => productTypes.includes(type);
 
     const handleCheckboxChange = (event) => {
@@ -12,6 +17,7 @@ const ProductTypeFilter = ({ productTypeOptions, productTypes, setProductTypes }
             );
         }
         setProductTypes((prevTypes) => [...prevTypes, selectedType]);
+        setPage(0);
     };
 
     return (

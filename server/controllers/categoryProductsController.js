@@ -24,7 +24,7 @@ const getCategoryProducts = async (req, res) => {
         .limit(pageSize)
         .sort({ price: sortByPrice(priceFilter) });
 
-    const totalCount = await Products.countDocuments({ categoryType: `${categoryType}` });
+    const totalCount = await Products.find(query).countDocuments();
 
     const productTypeOptions = await Products.distinct('type', {
         categoryType: `${categoryType}`,
