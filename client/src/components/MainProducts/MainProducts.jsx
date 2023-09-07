@@ -4,7 +4,9 @@ import { useGetProductsByCategoryQuery } from '../../services/categoryProducts';
 
 function MainProducts({ title, description }) {
     //*Data Fetching
-    const { data, error, isLoading } = useGetProductsByCategoryQuery(title);
+    const { data, error, isLoading } = useGetProductsByCategoryQuery({
+        categoryName: title,
+    });
     const { categoryProducts } = data || [];
 
     if (!categoryProducts?.length) return;

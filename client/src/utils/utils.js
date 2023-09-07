@@ -33,10 +33,10 @@ export const sortByPriceRange = (arr = [], sortVal) =>
 export const filterByType = (arrToFilter, activeFiltersArr) =>
     arrToFilter.filter((product) => activeFiltersArr.includes(product.type));
 
-export const featuredProductsDescription = `New Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,suscipit numquam at non dolore obcaecati fuga, tempore nesciunt, odit
+export const NEW_PRODUCTS_PLACEHOLDER = `New Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,suscipit numquam at non dolore obcaecati fuga, tempore nesciunt, odit
 quidem ad repellendus voluptatem veritatis quaerat neque nam magni
 exercitationem itaque`;
-export const trendingProductsDescription = `Trending Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,suscipit numquam at non dolore obcaecati fuga, tempore nesciunt, odit
+export const TRENDY_PRODUCTS_PLACEHOLDER = `Trending Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,suscipit numquam at non dolore obcaecati fuga, tempore nesciunt, odit
 quidem ad repellendus voluptatem veritatis quaerat neque nam magni
 exercitationem itaque`;
 
@@ -48,3 +48,6 @@ export const generatePagintationNumbers = (totalNumOfPages) => [
 ];
 
 export const BASE_URL = 'http://localhost:8000/';
+
+export const NEW_CATEGORY_TYPE = 'new';
+export const TRENDY_CATEGORY_TYPE = 'trendy';
